@@ -1,0 +1,551 @@
+INFO: 2018-05-20 08:18:25 logId[2147483637] [restartedMain] c.s.arch.udata.privilege.UdataPrivilegeApplication:48 - Starting UdataPrivilegeApplication on xiangyongqingdeMacBook-Pro.local with PID 30556 (/Users/xiangyongqing/IdeaProjects/udata-privilege/target/classes started by xiangyongqing in /Users/xiangyongqing/IdeaProjects/udata-privilege)
+DEBUG: 2018-05-20 08:18:25 logId[2147483637] [restartedMain] c.s.arch.udata.privilege.UdataPrivilegeApplication:51 - Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+INFO: 2018-05-20 08:18:25 logId[2147483637] [restartedMain] c.s.arch.udata.privilege.UdataPrivilegeApplication:597 - The following profiles are active: offline
+INFO: 2018-05-20 08:18:25 logId[2147483637] [restartedMain] o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext:583 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@63f8e0e9: startup date [Sun May 20 08:18:25 CST 2018]; root of context hierarchy
+INFO: 2018-05-20 08:18:28 logId[2147483637] [restartedMain] o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer:89 - Tomcat initialized with port(s): 5678 (http)
+INFO: 2018-05-20 08:18:28 logId[2147483637] [restartedMain] org.apache.catalina.core.StandardService:179 - Starting service [Tomcat]
+INFO: 2018-05-20 08:18:28 logId[2147483637] [restartedMain] org.apache.catalina.core.StandardEngine:179 - Starting Servlet Engine: Apache Tomcat/8.5.23
+INFO: 2018-05-20 08:18:28 logId[2147483632] [localhost-startStop-1] o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]:179 - Initializing Spring embedded WebApplicationContext
+INFO: 2018-05-20 08:18:28 logId[2147483632] [localhost-startStop-1] org.springframework.web.context.ContextLoader:276 - Root WebApplicationContext: initialization completed in 2992 ms
+INFO: 2018-05-20 08:18:34 logId[2147483632] [localhost-startStop-1] o.s.orm.jpa.LocalContainerEntityManagerFactoryBean:356 - Building JPA container EntityManagerFactory for persistence unit 'default'
+INFO: 2018-05-20 08:18:34 logId[2147483632] [localhost-startStop-1] org.hibernate.jpa.internal.util.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+INFO: 2018-05-20 08:18:34 logId[2147483632] [localhost-startStop-1] org.hibernate.Version:37 - HHH000412: Hibernate Core {5.0.12.Final}
+INFO: 2018-05-20 08:18:34 logId[2147483632] [localhost-startStop-1] org.hibernate.cfg.Environment:213 - HHH000206: hibernate.properties not found
+INFO: 2018-05-20 08:18:34 logId[2147483632] [localhost-startStop-1] org.hibernate.cfg.Environment:317 - HHH000021: Bytecode provider name : javassist
+INFO: 2018-05-20 08:18:34 logId[2147483632] [localhost-startStop-1] org.hibernate.annotations.common.Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+INFO: 2018-05-20 08:18:34 logId[2147483632] [localhost-startStop-1] org.hibernate.dialect.Dialect:156 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+INFO: 2018-05-20 08:18:35 logId[2147483632] [localhost-startStop-1] o.s.orm.jpa.LocalContainerEntityManagerFactoryBean:392 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+INFO: 2018-05-20 08:18:36 logId[2147483632] [localhost-startStop-1] o.h.hql.internal.QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+INFO: 2018-05-20 08:18:36 logId[2147483632] [localhost-startStop-1] o.s.boot.web.servlet.FilterRegistrationBean:258 - Mapping filter: 'characterEncodingFilter' to: [/*]
+INFO: 2018-05-20 08:18:36 logId[2147483632] [localhost-startStop-1] o.s.boot.web.servlet.FilterRegistrationBean:258 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+INFO: 2018-05-20 08:18:36 logId[2147483632] [localhost-startStop-1] o.s.boot.web.servlet.FilterRegistrationBean:258 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+INFO: 2018-05-20 08:18:36 logId[2147483632] [localhost-startStop-1] o.s.boot.web.servlet.FilterRegistrationBean:258 - Mapping filter: 'requestContextFilter' to: [/*]
+INFO: 2018-05-20 08:18:36 logId[2147483632] [localhost-startStop-1] o.s.boot.web.servlet.FilterRegistrationBean:271 - Mapping filter: 'PrivilegeFilter' to urls: [/*]
+INFO: 2018-05-20 08:18:36 logId[2147483632] [localhost-startStop-1] o.s.boot.web.servlet.FilterRegistrationBean:258 - Mapping filter: 'remoteIpFilter' to: [/*]
+INFO: 2018-05-20 08:18:36 logId[2147483632] [localhost-startStop-1] o.s.boot.web.servlet.ServletRegistrationBean:190 - Mapping servlet: 'dispatcherServlet' to [/]
+INFO: 2018-05-20 08:18:38 logId[2147483637] [restartedMain] o.s.web.servlet.handler.SimpleUrlHandlerMapping:362 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+INFO: 2018-05-20 08:18:38 logId[2147483637] [restartedMain] o.s.web.servlet.handler.SimpleUrlHandlerMapping:362 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+INFO: 2018-05-20 08:18:38 logId[2147483637] [restartedMain] o.s.web.servlet.handler.SimpleUrlHandlerMapping:362 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+INFO: 2018-05-20 08:18:38 logId[2147483637] [restartedMain] o.s.b.d.autoconfigure.OptionalLiveReloadServer:58 - LiveReload server is running on port 35729
+INFO: 2018-05-20 08:18:39 logId[2147483637] [restartedMain] o.s.jmx.export.annotation.AnnotationMBeanExporter:431 - Registering beans for JMX exposure on startup
+INFO: 2018-05-20 08:18:39 logId[2147483637] [restartedMain] o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer:201 - Tomcat started on port(s): 5678 (http)
+INFO: 2018-05-20 08:18:39 logId[2147483637] [restartedMain] c.s.arch.udata.privilege.UdataPrivilegeApplication:57 - Started UdataPrivilegeApplication in 14.808 seconds (JVM running for 16.009)
+INFO: 2018-05-20 08:19:01 logId[2147483623] [http-nio-5678-exec-1] o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]:179 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+INFO: 2018-05-20 08:19:01 logId[2147483623] [http-nio-5678-exec-1] org.springframework.web.servlet.DispatcherServlet:489 - FrameworkServlet 'dispatcherServlet': initialization started
+INFO: 2018-05-20 08:19:01 logId[2147483623] [http-nio-5678-exec-1] org.springframework.web.servlet.DispatcherServlet:508 - FrameworkServlet 'dispatcherServlet': initialization completed in 27 ms
+INFO: 2018-05-20 08:19:01 logId[2147483623] [http-nio-5678-exec-1] com.sf.arch.udata.privilege.common.util.Encryptor:76 - information before decode: 072183143146148063150007070040082123109217122131124244133
+INFO: 2018-05-20 08:19:01 logId[2147483623] [http-nio-5678-exec-1] com.sf.arch.udata.privilege.common.util.Encryptor:86 - information after decode: 01372785,1522140472
+INFO: 2018-05-20 08:19:01 logId[2147483623] [http-nio-5678-exec-1] c.s.a.u.privilege.common.filter.PrivilegeFilter:69 - Welcome 01372785 !
+INFO: 2018-05-20 08:19:01 logId[2147483623] [http-nio-5678-exec-1] c.s.arch.udata.privilege.common.util.PrivilegeUtil:49 - /privilege/findBy has privilege in COMMON_PRIVILEGES.
+INFO: 2018-05-20 08:19:01 logId[2147483623] [http-nio-5678-exec-1] c.s.a.u.privilege.common.filter.PrivilegeFilter:82 - Execute time: 10
+INFO: 2018-05-20 08:19:01 logId[2147483623] [http-nio-5678-exec-1] com.sf.arch.udata.privilege.common.util.Encryptor:76 - information before decode: 072183143146148063150007070040082123109217122131124244133
+INFO: 2018-05-20 08:19:01 logId[2147483623] [http-nio-5678-exec-1] com.sf.arch.udata.privilege.common.util.Encryptor:86 - information after decode: 01372785,1522140472
+INFO: 2018-05-20 08:19:05 logId[2147483622] [http-nio-5678-exec-2] com.sf.arch.udata.privilege.common.util.Encryptor:76 - information before decode: 072183143146148063150007070040082123109217122131124244133
+INFO: 2018-05-20 08:19:05 logId[2147483622] [http-nio-5678-exec-2] com.sf.arch.udata.privilege.common.util.Encryptor:86 - information after decode: 01372785,1522140472
+INFO: 2018-05-20 08:19:05 logId[2147483622] [http-nio-5678-exec-2] c.s.a.u.privilege.common.filter.PrivilegeFilter:69 - Welcome 01372785 !
+INFO: 2018-05-20 08:19:05 logId[2147483622] [http-nio-5678-exec-2] c.s.arch.udata.privilege.common.util.PrivilegeUtil:49 - /privilege/findBy has privilege in COMMON_PRIVILEGES.
+INFO: 2018-05-20 08:19:05 logId[2147483622] [http-nio-5678-exec-2] c.s.a.u.privilege.common.filter.PrivilegeFilter:82 - Execute time: 2
+INFO: 2018-05-20 08:19:05 logId[2147483622] [http-nio-5678-exec-2] com.sf.arch.udata.privilege.common.util.Encryptor:76 - information before decode: 072183143146148063150007070040082123109217122131124244133
+INFO: 2018-05-20 08:19:05 logId[2147483622] [http-nio-5678-exec-2] com.sf.arch.udata.privilege.common.util.Encryptor:86 - information after decode: 01372785,1522140472
+INFO: 2018-05-20 08:19:07 logId[2147483621] [http-nio-5678-exec-3] com.sf.arch.udata.privilege.common.util.Encryptor:76 - information before decode: 072183143146148063150007070040082123109217122131124244133
+INFO: 2018-05-20 08:19:07 logId[2147483621] [http-nio-5678-exec-3] com.sf.arch.udata.privilege.common.util.Encryptor:86 - information after decode: 01372785,1522140472
+INFO: 2018-05-20 08:19:07 logId[2147483621] [http-nio-5678-exec-3] c.s.a.u.privilege.common.filter.PrivilegeFilter:69 - Welcome 01372785 !
+INFO: 2018-05-20 08:19:07 logId[2147483621] [http-nio-5678-exec-3] c.s.arch.udata.privilege.common.util.PrivilegeUtil:49 - /privilege/findBy has privilege in COMMON_PRIVILEGES.
+INFO: 2018-05-20 08:19:07 logId[2147483621] [http-nio-5678-exec-3] c.s.a.u.privilege.common.filter.PrivilegeFilter:82 - Execute time: 2
+INFO: 2018-05-20 08:19:07 logId[2147483621] [http-nio-5678-exec-3] com.sf.arch.udata.privilege.common.util.Encryptor:76 - information before decode: 072183143146148063150007070040082123109217122131124244133
+INFO: 2018-05-20 08:19:07 logId[2147483621] [http-nio-5678-exec-3] com.sf.arch.udata.privilege.common.util.Encryptor:86 - information after decode: 01372785,1522140472
+INFO: 2018-05-20 08:19:08 logId[2147483620] [http-nio-5678-exec-4] com.sf.arch.udata.privilege.common.util.Encryptor:76 - information before decode: 072183143146148063150007070040082123109217122131124244133
+INFO: 2018-05-20 08:19:08 logId[2147483620] [http-nio-5678-exec-4] com.sf.arch.udata.privilege.common.util.Encryptor:86 - information after decode: 01372785,1522140472
+INFO: 2018-05-20 08:19:08 logId[2147483620] [http-nio-5678-exec-4] c.s.a.u.privilege.common.filter.PrivilegeFilter:69 - Welcome 01372785 !
+INFO: 2018-05-20 08:19:08 logId[2147483620] [http-nio-5678-exec-4] c.s.arch.udata.privilege.common.util.PrivilegeUtil:49 - /privilege/findBy has privilege in COMMON_PRIVILEGES.
+INFO: 2018-05-20 08:19:08 logId[2147483620] [http-nio-5678-exec-4] c.s.a.u.privilege.common.filter.PrivilegeFilter:82 - Execute time: 1
+INFO: 2018-05-20 08:19:08 logId[2147483620] [http-nio-5678-exec-4] com.sf.arch.udata.privilege.common.util.Encryptor:76 - information before decode: 072183143146148063150007070040082123109217122131124244133
+INFO: 2018-05-20 08:19:08 logId[2147483620] [http-nio-5678-exec-4] com.sf.arch.udata.privilege.common.util.Encryptor:86 - information after decode: 01372785,1522140472
+INFO: 2018-05-20 08:25:56 logId[2147483637] [restartedMain] c.s.arch.udata.privilege.UdataPrivilegeApplication:48 - Starting UdataPrivilegeApplication on xiangyongqingdeMacBook-Pro.local with PID 30898 (/Users/xiangyongqing/IdeaProjects/udata-privilege/target/classes started by xiangyongqing in /Users/xiangyongqing/IdeaProjects/udata-privilege)
+DEBUG: 2018-05-20 08:25:56 logId[2147483637] [restartedMain] c.s.arch.udata.privilege.UdataPrivilegeApplication:51 - Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+INFO: 2018-05-20 08:25:56 logId[2147483637] [restartedMain] c.s.arch.udata.privilege.UdataPrivilegeApplication:597 - The following profiles are active: offline
+INFO: 2018-05-20 08:25:56 logId[2147483637] [restartedMain] o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext:583 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3f046419: startup date [Sun May 20 08:25:56 CST 2018]; root of context hierarchy
+INFO: 2018-05-20 08:25:58 logId[2147483637] [restartedMain] o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer:89 - Tomcat initialized with port(s): 5678 (http)
+INFO: 2018-05-20 08:25:58 logId[2147483637] [restartedMain] org.apache.catalina.core.StandardService:179 - Starting service [Tomcat]
+INFO: 2018-05-20 08:25:58 logId[2147483637] [restartedMain] org.apache.catalina.core.StandardEngine:179 - Starting Servlet Engine: Apache Tomcat/8.5.23
+INFO: 2018-05-20 08:25:58 logId[2147483632] [localhost-startStop-1] o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]:179 - Initializing Spring embedded WebApplicationContext
+INFO: 2018-05-20 08:25:58 logId[2147483632] [localhost-startStop-1] org.springframework.web.context.ContextLoader:276 - Root WebApplicationContext: initialization completed in 2528 ms
+INFO: 2018-05-20 08:26:03 logId[2147483632] [localhost-startStop-1] o.s.orm.jpa.LocalContainerEntityManagerFactoryBean:356 - Building JPA container EntityManagerFactory for persistence unit 'default'
+INFO: 2018-05-20 08:26:04 logId[2147483632] [localhost-startStop-1] org.hibernate.jpa.internal.util.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+INFO: 2018-05-20 08:26:04 logId[2147483632] [localhost-startStop-1] org.hibernate.Version:37 - HHH000412: Hibernate Core {5.0.12.Final}
+INFO: 2018-05-20 08:26:04 logId[2147483632] [localhost-startStop-1] org.hibernate.cfg.Environment:213 - HHH000206: hibernate.properties not found
+INFO: 2018-05-20 08:26:04 logId[2147483632] [localhost-startStop-1] org.hibernate.cfg.Environment:317 - HHH000021: Bytecode provider name : javassist
+INFO: 2018-05-20 08:26:04 logId[2147483632] [localhost-startStop-1] org.hibernate.annotations.common.Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+INFO: 2018-05-20 08:26:04 logId[2147483632] [localhost-startStop-1] org.hibernate.dialect.Dialect:156 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+INFO: 2018-05-20 08:26:05 logId[2147483632] [localhost-startStop-1] o.s.orm.jpa.LocalContainerEntityManagerFactoryBean:392 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+INFO: 2018-05-20 08:26:05 logId[2147483632] [localhost-startStop-1] o.h.hql.internal.QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+INFO: 2018-05-20 08:26:06 logId[2147483632] [localhost-startStop-1] o.s.boot.web.servlet.FilterRegistrationBean:258 - Mapping filter: 'characterEncodingFilter' to: [/*]
+INFO: 2018-05-20 08:26:06 logId[2147483632] [localhost-startStop-1] o.s.boot.web.servlet.FilterRegistrationBean:258 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+INFO: 2018-05-20 08:26:06 logId[2147483632] [localhost-startStop-1] o.s.boot.web.servlet.FilterRegistrationBean:258 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+INFO: 2018-05-20 08:26:06 logId[2147483632] [localhost-startStop-1] o.s.boot.web.servlet.FilterRegistrationBean:258 - Mapping filter: 'requestContextFilter' to: [/*]
+INFO: 2018-05-20 08:26:06 logId[2147483632] [localhost-startStop-1] o.s.boot.web.servlet.FilterRegistrationBean:271 - Mapping filter: 'PrivilegeFilter' to urls: [/*]
+INFO: 2018-05-20 08:26:06 logId[2147483632] [localhost-startStop-1] o.s.boot.web.servlet.FilterRegistrationBean:258 - Mapping filter: 'remoteIpFilter' to: [/*]
+INFO: 2018-05-20 08:26:06 logId[2147483632] [localhost-startStop-1] o.s.boot.web.servlet.ServletRegistrationBean:190 - Mapping servlet: 'dispatcherServlet' to [/]
+INFO: 2018-05-20 08:26:06 logId[2147483637] [restartedMain] o.s.web.servlet.handler.SimpleUrlHandlerMapping:362 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+INFO: 2018-05-20 08:26:06 logId[2147483637] [restartedMain] o.s.web.servlet.handler.SimpleUrlHandlerMapping:362 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+INFO: 2018-05-20 08:26:06 logId[2147483637] [restartedMain] o.s.web.servlet.handler.SimpleUrlHandlerMapping:362 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+INFO: 2018-05-20 08:26:07 logId[2147483637] [restartedMain] o.s.b.d.autoconfigure.OptionalLiveReloadServer:58 - LiveReload server is running on port 35729
+INFO: 2018-05-20 08:26:07 logId[2147483637] [restartedMain] o.s.jmx.export.annotation.AnnotationMBeanExporter:431 - Registering beans for JMX exposure on startup
+INFO: 2018-05-20 08:26:07 logId[2147483637] [restartedMain] o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer:201 - Tomcat started on port(s): 5678 (http)
+INFO: 2018-05-20 08:26:07 logId[2147483637] [restartedMain] c.s.arch.udata.privilege.UdataPrivilegeApplication:57 - Started UdataPrivilegeApplication in 11.438 seconds (JVM running for 12.355)
+INFO: 2018-05-20 16:40:34 logId[2147483637] [restartedMain] c.s.arch.udata.privilege.UdataPrivilegeApplication:48 - Starting UdataPrivilegeApplication on xiangyongqingdeMacBook-Pro.local with PID 42368 (/Users/xiangyongqing/IdeaProjects/udata-privilege/target/classes started by xiangyongqing in /Users/xiangyongqing/IdeaProjects/udata-privilege)
+DEBUG: 2018-05-20 16:40:34 logId[2147483637] [restartedMain] c.s.arch.udata.privilege.UdataPrivilegeApplication:51 - Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+INFO: 2018-05-20 16:40:34 logId[2147483637] [restartedMain] c.s.arch.udata.privilege.UdataPrivilegeApplication:597 - The following profiles are active: offline
+INFO: 2018-05-20 16:40:34 logId[2147483637] [restartedMain] o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext:583 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@52f4ad3d: startup date [Sun May 20 16:40:34 CST 2018]; root of context hierarchy
+INFO: 2018-05-20 16:40:37 logId[2147483637] [restartedMain] o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer:89 - Tomcat initialized with port(s): 5678 (http)
+INFO: 2018-05-20 16:40:37 logId[2147483637] [restartedMain] org.apache.catalina.core.StandardService:179 - Starting service [Tomcat]
+INFO: 2018-05-20 16:40:37 logId[2147483637] [restartedMain] org.apache.catalina.core.StandardEngine:179 - Starting Servlet Engine: Apache Tomcat/8.5.23
+INFO: 2018-05-20 16:40:37 logId[2147483632] [localhost-startStop-1] o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]:179 - Initializing Spring embedded WebApplicationContext
+INFO: 2018-05-20 16:40:37 logId[2147483632] [localhost-startStop-1] org.springframework.web.context.ContextLoader:276 - Root WebApplicationContext: initialization completed in 2385 ms
+INFO: 2018-05-20 16:40:42 logId[2147483632] [localhost-startStop-1] o.s.orm.jpa.LocalContainerEntityManagerFactoryBean:356 - Building JPA container EntityManagerFactory for persistence unit 'default'
+INFO: 2018-05-20 16:40:42 logId[2147483632] [localhost-startStop-1] org.hibernate.jpa.internal.util.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+INFO: 2018-05-20 16:40:42 logId[2147483632] [localhost-startStop-1] org.hibernate.Version:37 - HHH000412: Hibernate Core {5.0.12.Final}
+INFO: 2018-05-20 16:40:42 logId[2147483632] [localhost-startStop-1] org.hibernate.cfg.Environment:213 - HHH000206: hibernate.properties not found
+INFO: 2018-05-20 16:40:42 logId[2147483632] [localhost-startStop-1] org.hibernate.cfg.Environment:317 - HHH000021: Bytecode provider name : javassist
+INFO: 2018-05-20 16:40:42 logId[2147483632] [localhost-startStop-1] org.hibernate.annotations.common.Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+INFO: 2018-05-20 16:40:42 logId[2147483632] [localhost-startStop-1] org.hibernate.dialect.Dialect:156 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+INFO: 2018-05-20 16:40:43 logId[2147483632] [localhost-startStop-1] o.s.orm.jpa.LocalContainerEntityManagerFactoryBean:392 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+INFO: 2018-05-20 16:40:43 logId[2147483632] [localhost-startStop-1] o.h.hql.internal.QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+INFO: 2018-05-20 16:40:44 logId[2147483632] [localhost-startStop-1] o.s.boot.web.servlet.FilterRegistrationBean:258 - Mapping filter: 'characterEncodingFilter' to: [/*]
+INFO: 2018-05-20 16:40:44 logId[2147483632] [localhost-startStop-1] o.s.boot.web.servlet.FilterRegistrationBean:258 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+INFO: 2018-05-20 16:40:44 logId[2147483632] [localhost-startStop-1] o.s.boot.web.servlet.FilterRegistrationBean:258 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+INFO: 2018-05-20 16:40:44 logId[2147483632] [localhost-startStop-1] o.s.boot.web.servlet.FilterRegistrationBean:258 - Mapping filter: 'requestContextFilter' to: [/*]
+INFO: 2018-05-20 16:40:44 logId[2147483632] [localhost-startStop-1] o.s.boot.web.servlet.FilterRegistrationBean:271 - Mapping filter: 'PrivilegeFilter' to urls: [/*]
+INFO: 2018-05-20 16:40:44 logId[2147483632] [localhost-startStop-1] o.s.boot.web.servlet.FilterRegistrationBean:258 - Mapping filter: 'remoteIpFilter' to: [/*]
+INFO: 2018-05-20 16:40:44 logId[2147483632] [localhost-startStop-1] o.s.boot.web.servlet.ServletRegistrationBean:190 - Mapping servlet: 'dispatcherServlet' to [/]
+INFO: 2018-05-20 16:40:45 logId[2147483637] [restartedMain] o.s.web.servlet.handler.SimpleUrlHandlerMapping:362 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+INFO: 2018-05-20 16:40:45 logId[2147483637] [restartedMain] o.s.web.servlet.handler.SimpleUrlHandlerMapping:362 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+INFO: 2018-05-20 16:40:45 logId[2147483637] [restartedMain] o.s.web.servlet.handler.SimpleUrlHandlerMapping:362 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+INFO: 2018-05-20 16:40:45 logId[2147483637] [restartedMain] o.s.b.d.autoconfigure.OptionalLiveReloadServer:58 - LiveReload server is running on port 35729
+INFO: 2018-05-20 16:40:45 logId[2147483637] [restartedMain] o.s.jmx.export.annotation.AnnotationMBeanExporter:431 - Registering beans for JMX exposure on startup
+INFO: 2018-05-20 16:40:45 logId[2147483637] [restartedMain] o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer:201 - Tomcat started on port(s): 5678 (http)
+INFO: 2018-05-20 16:40:45 logId[2147483637] [restartedMain] c.s.arch.udata.privilege.UdataPrivilegeApplication:57 - Started UdataPrivilegeApplication in 11.537 seconds (JVM running for 12.338)
+INFO: 2018-05-20 16:44:12 logId[2147483623] [http-nio-5678-exec-1] o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]:179 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+INFO: 2018-05-20 16:44:12 logId[2147483623] [http-nio-5678-exec-1] org.springframework.web.servlet.DispatcherServlet:489 - FrameworkServlet 'dispatcherServlet': initialization started
+INFO: 2018-05-20 16:44:12 logId[2147483623] [http-nio-5678-exec-1] org.springframework.web.servlet.DispatcherServlet:508 - FrameworkServlet 'dispatcherServlet': initialization completed in 37 ms
+INFO: 2018-05-20 16:44:12 logId[2147483623] [http-nio-5678-exec-1] com.sf.arch.udata.privilege.common.util.Encryptor:76 - information before decode: 072183143146148063150007070040082123109217122131124244133
+INFO: 2018-05-20 16:44:12 logId[2147483623] [http-nio-5678-exec-1] com.sf.arch.udata.privilege.common.util.Encryptor:86 - information after decode: 01372785,1522140472
+INFO: 2018-05-20 16:44:12 logId[2147483623] [http-nio-5678-exec-1] c.s.a.u.privilege.common.filter.PrivilegeFilter:69 - Welcome 01372785 !
+INFO: 2018-05-20 16:44:12 logId[2147483623] [http-nio-5678-exec-1] c.s.arch.udata.privilege.common.util.PrivilegeUtil:49 - /role/findAll has privilege in COMMON_PRIVILEGES.
+INFO: 2018-05-20 16:44:12 logId[2147483623] [http-nio-5678-exec-1] c.s.a.u.privilege.common.filter.PrivilegeFilter:82 - Execute time: 12
+INFO: 2018-05-20 16:44:12 logId[2147483623] [http-nio-5678-exec-1] com.sf.arch.udata.privilege.common.util.Encryptor:76 - information before decode: 072183143146148063150007070040082123109217122131124244133
+INFO: 2018-05-20 16:44:12 logId[2147483623] [http-nio-5678-exec-1] com.sf.arch.udata.privilege.common.util.Encryptor:86 - information after decode: 01372785,1522140472
+INFO: 2018-05-20 16:44:13 logId[2147483623] [http-nio-5678-exec-1] com.sf.arch.udata.privilege.common.util.Encryptor:76 - information before decode: 072183143146148063150007070040082123109217122131124244133
+INFO: 2018-05-20 16:44:13 logId[2147483623] [http-nio-5678-exec-1] com.sf.arch.udata.privilege.common.util.Encryptor:86 - information after decode: 01372785,1522140472
+INFO: 2018-05-20 16:44:51 logId[2147483622] [http-nio-5678-exec-2] com.sf.arch.udata.privilege.common.util.Encryptor:76 - information before decode: 072183143146148063150007070040082123109217122131124244133
+INFO: 2018-05-20 16:44:51 logId[2147483622] [http-nio-5678-exec-2] com.sf.arch.udata.privilege.common.util.Encryptor:86 - information after decode: 01372785,1522140472
+INFO: 2018-05-20 16:44:51 logId[2147483622] [http-nio-5678-exec-2] c.s.a.u.privilege.common.filter.PrivilegeFilter:69 - Welcome 01372785 !
+INFO: 2018-05-20 16:44:51 logId[2147483622] [http-nio-5678-exec-2] c.s.arch.udata.privilege.common.util.PrivilegeUtil:49 - /role/findAll has privilege in COMMON_PRIVILEGES.
+INFO: 2018-05-20 16:44:51 logId[2147483622] [http-nio-5678-exec-2] c.s.a.u.privilege.common.filter.PrivilegeFilter:82 - Execute time: 1
+INFO: 2018-05-20 16:44:51 logId[2147483622] [http-nio-5678-exec-2] com.sf.arch.udata.privilege.common.util.Encryptor:76 - information before decode: 072183143146148063150007070040082123109217122131124244133
+INFO: 2018-05-20 16:44:51 logId[2147483622] [http-nio-5678-exec-2] com.sf.arch.udata.privilege.common.util.Encryptor:86 - information after decode: 01372785,1522140472
+INFO: 2018-05-20 16:44:52 logId[2147483622] [http-nio-5678-exec-2] com.sf.arch.udata.privilege.common.util.Encryptor:76 - information before decode: 072183143146148063150007070040082123109217122131124244133
+INFO: 2018-05-20 16:44:52 logId[2147483622] [http-nio-5678-exec-2] com.sf.arch.udata.privilege.common.util.Encryptor:86 - information after decode: 01372785,1522140472
+INFO: 2018-05-20 16:45:39 logId[2147483626] [Thread-7] o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext:984 - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@52f4ad3d: startup date [Sun May 20 16:40:34 CST 2018]; root of context hierarchy
+INFO: 2018-05-20 16:45:39 logId[2147483626] [Thread-7] o.s.jmx.export.annotation.AnnotationMBeanExporter:449 - Unregistering JMX-exposed beans on shutdown
+INFO: 2018-05-20 16:45:39 logId[2147483626] [Thread-7] o.s.orm.jpa.LocalContainerEntityManagerFactoryBean:563 - Closing JPA EntityManagerFactory for persistence unit 'default'
+INFO: 2018-05-20 17:06:19 logId[2147483637] [restartedMain] c.s.arch.udata.privilege.UdataPrivilegeApplication:48 - Starting UdataPrivilegeApplication on xiangyongqingdeMacBook-Pro.local with PID 43251 (/Users/xiangyongqing/IdeaProjects/udata-privilege/target/classes started by xiangyongqing in /Users/xiangyongqing/IdeaProjects/udata-privilege)
+DEBUG: 2018-05-20 17:06:19 logId[2147483637] [restartedMain] c.s.arch.udata.privilege.UdataPrivilegeApplication:51 - Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+INFO: 2018-05-20 17:06:19 logId[2147483637] [restartedMain] c.s.arch.udata.privilege.UdataPrivilegeApplication:597 - The following profiles are active: offline
+INFO: 2018-05-20 17:06:20 logId[2147483637] [restartedMain] o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext:583 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@52f4ad3d: startup date [Sun May 20 17:06:20 CST 2018]; root of context hierarchy
+INFO: 2018-05-20 17:06:22 logId[2147483637] [restartedMain] o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer:89 - Tomcat initialized with port(s): 5678 (http)
+INFO: 2018-05-20 17:06:22 logId[2147483637] [restartedMain] org.apache.catalina.core.StandardService:179 - Starting service [Tomcat]
+INFO: 2018-05-20 17:06:22 logId[2147483637] [restartedMain] org.apache.catalina.core.StandardEngine:179 - Starting Servlet Engine: Apache Tomcat/8.5.23
+INFO: 2018-05-20 17:06:22 logId[2147483632] [localhost-startStop-1] o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]:179 - Initializing Spring embedded WebApplicationContext
+INFO: 2018-05-20 17:06:22 logId[2147483632] [localhost-startStop-1] org.springframework.web.context.ContextLoader:276 - Root WebApplicationContext: initialization completed in 2242 ms
+INFO: 2018-05-20 17:06:27 logId[2147483632] [localhost-startStop-1] o.s.orm.jpa.LocalContainerEntityManagerFactoryBean:356 - Building JPA container EntityManagerFactory for persistence unit 'default'
+INFO: 2018-05-20 17:06:27 logId[2147483632] [localhost-startStop-1] org.hibernate.jpa.internal.util.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+INFO: 2018-05-20 17:06:27 logId[2147483632] [localhost-startStop-1] org.hibernate.Version:37 - HHH000412: Hibernate Core {5.0.12.Final}
+INFO: 2018-05-20 17:06:27 logId[2147483632] [localhost-startStop-1] org.hibernate.cfg.Environment:213 - HHH000206: hibernate.properties not found
+INFO: 2018-05-20 17:06:27 logId[2147483632] [localhost-startStop-1] org.hibernate.cfg.Environment:317 - HHH000021: Bytecode provider name : javassist
+INFO: 2018-05-20 17:06:27 logId[2147483632] [localhost-startStop-1] org.hibernate.annotations.common.Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+INFO: 2018-05-20 17:06:27 logId[2147483632] [localhost-startStop-1] org.hibernate.dialect.Dialect:156 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+INFO: 2018-05-20 17:06:27 logId[2147483632] [localhost-startStop-1] o.s.orm.jpa.LocalContainerEntityManagerFactoryBean:392 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+INFO: 2018-05-20 17:06:28 logId[2147483632] [localhost-startStop-1] o.h.hql.internal.QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+INFO: 2018-05-20 17:06:28 logId[2147483632] [localhost-startStop-1] o.s.boot.web.servlet.FilterRegistrationBean:258 - Mapping filter: 'characterEncodingFilter' to: [/*]
+INFO: 2018-05-20 17:06:28 logId[2147483632] [localhost-startStop-1] o.s.boot.web.servlet.FilterRegistrationBean:258 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+INFO: 2018-05-20 17:06:28 logId[2147483632] [localhost-startStop-1] o.s.boot.web.servlet.FilterRegistrationBean:258 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+INFO: 2018-05-20 17:06:28 logId[2147483632] [localhost-startStop-1] o.s.boot.web.servlet.FilterRegistrationBean:258 - Mapping filter: 'requestContextFilter' to: [/*]
+INFO: 2018-05-20 17:06:28 logId[2147483632] [localhost-startStop-1] o.s.boot.web.servlet.FilterRegistrationBean:271 - Mapping filter: 'PrivilegeFilter' to urls: [/*]
+INFO: 2018-05-20 17:06:28 logId[2147483632] [localhost-startStop-1] o.s.boot.web.servlet.FilterRegistrationBean:258 - Mapping filter: 'remoteIpFilter' to: [/*]
+INFO: 2018-05-20 17:06:28 logId[2147483632] [localhost-startStop-1] o.s.boot.web.servlet.ServletRegistrationBean:190 - Mapping servlet: 'dispatcherServlet' to [/]
+INFO: 2018-05-20 17:06:29 logId[2147483637] [restartedMain] o.s.web.servlet.handler.SimpleUrlHandlerMapping:362 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+INFO: 2018-05-20 17:06:29 logId[2147483637] [restartedMain] o.s.web.servlet.handler.SimpleUrlHandlerMapping:362 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+INFO: 2018-05-20 17:06:29 logId[2147483637] [restartedMain] o.s.web.servlet.handler.SimpleUrlHandlerMapping:362 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+INFO: 2018-05-20 17:06:29 logId[2147483637] [restartedMain] o.s.b.d.autoconfigure.OptionalLiveReloadServer:58 - LiveReload server is running on port 35729
+INFO: 2018-05-20 17:06:29 logId[2147483637] [restartedMain] o.s.jmx.export.annotation.AnnotationMBeanExporter:431 - Registering beans for JMX exposure on startup
+INFO: 2018-05-20 17:06:29 logId[2147483637] [restartedMain] o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer:201 - Tomcat started on port(s): 5678 (http)
+INFO: 2018-05-20 17:06:29 logId[2147483637] [restartedMain] c.s.arch.udata.privilege.UdataPrivilegeApplication:57 - Started UdataPrivilegeApplication in 10.023 seconds (JVM running for 10.654)
+INFO: 2018-05-20 17:06:37 logId[2147483623] [http-nio-5678-exec-1] o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]:179 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+INFO: 2018-05-20 17:06:37 logId[2147483623] [http-nio-5678-exec-1] org.springframework.web.servlet.DispatcherServlet:489 - FrameworkServlet 'dispatcherServlet': initialization started
+INFO: 2018-05-20 17:06:37 logId[2147483623] [http-nio-5678-exec-1] org.springframework.web.servlet.DispatcherServlet:508 - FrameworkServlet 'dispatcherServlet': initialization completed in 24 ms
+INFO: 2018-05-20 17:06:37 logId[2147483623] [http-nio-5678-exec-1] com.sf.arch.udata.privilege.common.util.Encryptor:76 - information before decode: 072183143146148063150007070040082123109217122131124244133
+INFO: 2018-05-20 17:06:37 logId[2147483623] [http-nio-5678-exec-1] com.sf.arch.udata.privilege.common.util.Encryptor:86 - information after decode: 01372785,1522140472
+INFO: 2018-05-20 17:06:37 logId[2147483623] [http-nio-5678-exec-1] c.s.a.u.privilege.common.filter.PrivilegeFilter:69 - Welcome 01372785 !
+INFO: 2018-05-20 17:06:37 logId[2147483623] [http-nio-5678-exec-1] c.s.arch.udata.privilege.common.util.PrivilegeUtil:49 - /role/findAll has privilege in COMMON_PRIVILEGES.
+INFO: 2018-05-20 17:06:37 logId[2147483623] [http-nio-5678-exec-1] c.s.a.u.privilege.common.filter.PrivilegeFilter:82 - Execute time: 9
+INFO: 2018-05-20 17:06:37 logId[2147483623] [http-nio-5678-exec-1] com.sf.arch.udata.privilege.common.util.Encryptor:76 - information before decode: 072183143146148063150007070040082123109217122131124244133
+INFO: 2018-05-20 17:06:37 logId[2147483623] [http-nio-5678-exec-1] com.sf.arch.udata.privilege.common.util.Encryptor:86 - information after decode: 01372785,1522140472
+INFO: 2018-05-20 17:06:38 logId[2147483623] [http-nio-5678-exec-1] com.sf.arch.udata.privilege.common.util.Encryptor:76 - information before decode: 072183143146148063150007070040082123109217122131124244133
+INFO: 2018-05-20 17:06:38 logId[2147483623] [http-nio-5678-exec-1] com.sf.arch.udata.privilege.common.util.Encryptor:86 - information after decode: 01372785,1522140472
+INFO: 2018-05-20 17:07:20 logId[2147483626] [Thread-7] o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext:984 - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@52f4ad3d: startup date [Sun May 20 17:06:20 CST 2018]; root of context hierarchy
+INFO: 2018-05-20 17:07:20 logId[2147483626] [Thread-7] o.s.jmx.export.annotation.AnnotationMBeanExporter:449 - Unregistering JMX-exposed beans on shutdown
+INFO: 2018-05-20 17:07:20 logId[2147483626] [Thread-7] o.s.orm.jpa.LocalContainerEntityManagerFactoryBean:563 - Closing JPA EntityManagerFactory for persistence unit 'default'
+INFO: 2018-05-20 17:07:45 logId[2147483637] [restartedMain] c.s.arch.udata.privilege.UdataPrivilegeApplication:48 - Starting UdataPrivilegeApplication on xiangyongqingdeMacBook-Pro.local with PID 43324 (/Users/xiangyongqing/IdeaProjects/udata-privilege/target/classes started by xiangyongqing in /Users/xiangyongqing/IdeaProjects/udata-privilege)
+DEBUG: 2018-05-20 17:07:45 logId[2147483637] [restartedMain] c.s.arch.udata.privilege.UdataPrivilegeApplication:51 - Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+INFO: 2018-05-20 17:07:45 logId[2147483637] [restartedMain] c.s.arch.udata.privilege.UdataPrivilegeApplication:597 - The following profiles are active: offline
+INFO: 2018-05-20 17:07:46 logId[2147483637] [restartedMain] o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext:583 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@63f8e0e9: startup date [Sun May 20 17:07:46 CST 2018]; root of context hierarchy
+INFO: 2018-05-20 17:07:48 logId[2147483637] [restartedMain] o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer:89 - Tomcat initialized with port(s): 5678 (http)
+INFO: 2018-05-20 17:07:48 logId[2147483637] [restartedMain] org.apache.catalina.core.StandardService:179 - Starting service [Tomcat]
+INFO: 2018-05-20 17:07:48 logId[2147483637] [restartedMain] org.apache.catalina.core.StandardEngine:179 - Starting Servlet Engine: Apache Tomcat/8.5.23
+INFO: 2018-05-20 17:07:48 logId[2147483632] [localhost-startStop-1] o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]:179 - Initializing Spring embedded WebApplicationContext
+INFO: 2018-05-20 17:07:48 logId[2147483632] [localhost-startStop-1] org.springframework.web.context.ContextLoader:276 - Root WebApplicationContext: initialization completed in 2141 ms
+INFO: 2018-05-20 17:07:53 logId[2147483632] [localhost-startStop-1] o.s.orm.jpa.LocalContainerEntityManagerFactoryBean:356 - Building JPA container EntityManagerFactory for persistence unit 'default'
+INFO: 2018-05-20 17:07:53 logId[2147483632] [localhost-startStop-1] org.hibernate.jpa.internal.util.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+INFO: 2018-05-20 17:07:53 logId[2147483632] [localhost-startStop-1] org.hibernate.Version:37 - HHH000412: Hibernate Core {5.0.12.Final}
+INFO: 2018-05-20 17:07:53 logId[2147483632] [localhost-startStop-1] org.hibernate.cfg.Environment:213 - HHH000206: hibernate.properties not found
+INFO: 2018-05-20 17:07:53 logId[2147483632] [localhost-startStop-1] org.hibernate.cfg.Environment:317 - HHH000021: Bytecode provider name : javassist
+INFO: 2018-05-20 17:07:53 logId[2147483632] [localhost-startStop-1] org.hibernate.annotations.common.Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+INFO: 2018-05-20 17:07:54 logId[2147483632] [localhost-startStop-1] org.hibernate.dialect.Dialect:156 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+INFO: 2018-05-20 17:07:54 logId[2147483632] [localhost-startStop-1] o.s.orm.jpa.LocalContainerEntityManagerFactoryBean:392 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+INFO: 2018-05-20 17:07:55 logId[2147483632] [localhost-startStop-1] o.h.hql.internal.QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+INFO: 2018-05-20 17:07:55 logId[2147483632] [localhost-startStop-1] o.s.boot.web.servlet.FilterRegistrationBean:258 - Mapping filter: 'characterEncodingFilter' to: [/*]
+INFO: 2018-05-20 17:07:55 logId[2147483632] [localhost-startStop-1] o.s.boot.web.servlet.FilterRegistrationBean:258 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+INFO: 2018-05-20 17:07:55 logId[2147483632] [localhost-startStop-1] o.s.boot.web.servlet.FilterRegistrationBean:258 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+INFO: 2018-05-20 17:07:55 logId[2147483632] [localhost-startStop-1] o.s.boot.web.servlet.FilterRegistrationBean:258 - Mapping filter: 'requestContextFilter' to: [/*]
+INFO: 2018-05-20 17:07:55 logId[2147483632] [localhost-startStop-1] o.s.boot.web.servlet.FilterRegistrationBean:271 - Mapping filter: 'PrivilegeFilter' to urls: [/*]
+INFO: 2018-05-20 17:07:55 logId[2147483632] [localhost-startStop-1] o.s.boot.web.servlet.FilterRegistrationBean:258 - Mapping filter: 'remoteIpFilter' to: [/*]
+INFO: 2018-05-20 17:07:55 logId[2147483632] [localhost-startStop-1] o.s.boot.web.servlet.ServletRegistrationBean:190 - Mapping servlet: 'dispatcherServlet' to [/]
+INFO: 2018-05-20 17:07:56 logId[2147483637] [restartedMain] o.s.web.servlet.handler.SimpleUrlHandlerMapping:362 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+INFO: 2018-05-20 17:07:56 logId[2147483637] [restartedMain] o.s.web.servlet.handler.SimpleUrlHandlerMapping:362 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+INFO: 2018-05-20 17:07:56 logId[2147483637] [restartedMain] o.s.web.servlet.handler.SimpleUrlHandlerMapping:362 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+INFO: 2018-05-20 17:07:56 logId[2147483637] [restartedMain] o.s.b.d.autoconfigure.OptionalLiveReloadServer:58 - LiveReload server is running on port 35729
+INFO: 2018-05-20 17:07:57 logId[2147483637] [restartedMain] o.s.jmx.export.annotation.AnnotationMBeanExporter:431 - Registering beans for JMX exposure on startup
+INFO: 2018-05-20 17:07:57 logId[2147483637] [restartedMain] o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer:201 - Tomcat started on port(s): 5678 (http)
+INFO: 2018-05-20 17:07:57 logId[2147483637] [restartedMain] c.s.arch.udata.privilege.UdataPrivilegeApplication:57 - Started UdataPrivilegeApplication in 11.486 seconds (JVM running for 12.163)
+INFO: 2018-05-20 17:08:06 logId[2147483623] [http-nio-5678-exec-1] o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]:179 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+INFO: 2018-05-20 17:08:06 logId[2147483623] [http-nio-5678-exec-1] org.springframework.web.servlet.DispatcherServlet:489 - FrameworkServlet 'dispatcherServlet': initialization started
+INFO: 2018-05-20 17:08:06 logId[2147483623] [http-nio-5678-exec-1] org.springframework.web.servlet.DispatcherServlet:508 - FrameworkServlet 'dispatcherServlet': initialization completed in 27 ms
+INFO: 2018-05-20 17:08:06 logId[2147483623] [http-nio-5678-exec-1] com.sf.arch.udata.privilege.common.util.Encryptor:76 - information before decode: 072183143146148063150007070040082123109217122131124244133
+INFO: 2018-05-20 17:08:06 logId[2147483623] [http-nio-5678-exec-1] com.sf.arch.udata.privilege.common.util.Encryptor:86 - information after decode: 01372785,1522140472
+INFO: 2018-05-20 17:08:06 logId[2147483623] [http-nio-5678-exec-1] c.s.a.u.privilege.common.filter.PrivilegeFilter:69 - Welcome 01372785 !
+INFO: 2018-05-20 17:08:06 logId[2147483623] [http-nio-5678-exec-1] c.s.arch.udata.privilege.common.util.PrivilegeUtil:49 - /role/findAll has privilege in COMMON_PRIVILEGES.
+INFO: 2018-05-20 17:08:06 logId[2147483623] [http-nio-5678-exec-1] c.s.a.u.privilege.common.filter.PrivilegeFilter:82 - Execute time: 7
+INFO: 2018-05-20 17:08:06 logId[2147483623] [http-nio-5678-exec-1] com.sf.arch.udata.privilege.common.util.Encryptor:76 - information before decode: 072183143146148063150007070040082123109217122131124244133
+INFO: 2018-05-20 17:08:06 logId[2147483623] [http-nio-5678-exec-1] com.sf.arch.udata.privilege.common.util.Encryptor:86 - information after decode: 01372785,1522140472
+INFO: 2018-05-20 17:08:07 logId[2147483623] [http-nio-5678-exec-1] com.sf.arch.udata.privilege.common.util.Encryptor:76 - information before decode: 072183143146148063150007070040082123109217122131124244133
+INFO: 2018-05-20 17:08:07 logId[2147483623] [http-nio-5678-exec-1] com.sf.arch.udata.privilege.common.util.Encryptor:86 - information after decode: 01372785,1522140472
+INFO: 2018-05-20 17:08:29 logId[2147483622] [http-nio-5678-exec-2] com.sf.arch.udata.privilege.common.util.Encryptor:76 - information before decode: 072183143146148063150007070040082123109217122131124244133
+INFO: 2018-05-20 17:08:29 logId[2147483622] [http-nio-5678-exec-2] com.sf.arch.udata.privilege.common.util.Encryptor:86 - information after decode: 01372785,1522140472
+INFO: 2018-05-20 17:08:29 logId[2147483622] [http-nio-5678-exec-2] c.s.a.u.privilege.common.filter.PrivilegeFilter:69 - Welcome 01372785 !
+INFO: 2018-05-20 17:08:29 logId[2147483622] [http-nio-5678-exec-2] c.s.arch.udata.privilege.common.util.PrivilegeUtil:49 - /role/findAll has privilege in COMMON_PRIVILEGES.
+INFO: 2018-05-20 17:08:29 logId[2147483622] [http-nio-5678-exec-2] c.s.a.u.privilege.common.filter.PrivilegeFilter:82 - Execute time: 4
+INFO: 2018-05-20 17:08:29 logId[2147483622] [http-nio-5678-exec-2] com.sf.arch.udata.privilege.common.util.Encryptor:76 - information before decode: 072183143146148063150007070040082123109217122131124244133
+INFO: 2018-05-20 17:08:29 logId[2147483622] [http-nio-5678-exec-2] com.sf.arch.udata.privilege.common.util.Encryptor:86 - information after decode: 01372785,1522140472
+INFO: 2018-05-20 17:08:30 logId[2147483622] [http-nio-5678-exec-2] com.sf.arch.udata.privilege.common.util.Encryptor:76 - information before decode: 072183143146148063150007070040082123109217122131124244133
+INFO: 2018-05-20 17:08:30 logId[2147483622] [http-nio-5678-exec-2] com.sf.arch.udata.privilege.common.util.Encryptor:86 - information after decode: 01372785,1522140472
+INFO: 2018-05-20 17:08:55 logId[2147483626] [Thread-7] o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext:984 - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@63f8e0e9: startup date [Sun May 20 17:07:46 CST 2018]; root of context hierarchy
+INFO: 2018-05-20 17:08:55 logId[2147483626] [Thread-7] o.s.jmx.export.annotation.AnnotationMBeanExporter:449 - Unregistering JMX-exposed beans on shutdown
+INFO: 2018-05-20 17:08:55 logId[2147483626] [Thread-7] o.s.orm.jpa.LocalContainerEntityManagerFactoryBean:563 - Closing JPA EntityManagerFactory for persistence unit 'default'
+INFO: 2018-05-20 17:40:31 logId[2147483637] [restartedMain] c.s.arch.udata.privilege.UdataPrivilegeApplication:48 - Starting UdataPrivilegeApplication on xiangyongqingdeMacBook-Pro.local with PID 44602 (/Users/xiangyongqing/IdeaProjects/udata-privilege/target/classes started by xiangyongqing in /Users/xiangyongqing/IdeaProjects/udata-privilege)
+DEBUG: 2018-05-20 17:40:31 logId[2147483637] [restartedMain] c.s.arch.udata.privilege.UdataPrivilegeApplication:51 - Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+INFO: 2018-05-20 17:40:31 logId[2147483637] [restartedMain] c.s.arch.udata.privilege.UdataPrivilegeApplication:597 - The following profiles are active: offline
+INFO: 2018-05-20 17:40:32 logId[2147483637] [restartedMain] o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext:583 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@63f8e0e9: startup date [Sun May 20 17:40:32 CST 2018]; root of context hierarchy
+INFO: 2018-05-20 17:40:34 logId[2147483637] [restartedMain] o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer:89 - Tomcat initialized with port(s): 5678 (http)
+INFO: 2018-05-20 17:40:34 logId[2147483637] [restartedMain] org.apache.catalina.core.StandardService:179 - Starting service [Tomcat]
+INFO: 2018-05-20 17:40:34 logId[2147483637] [restartedMain] org.apache.catalina.core.StandardEngine:179 - Starting Servlet Engine: Apache Tomcat/8.5.23
+INFO: 2018-05-20 17:40:34 logId[2147483632] [localhost-startStop-1] o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]:179 - Initializing Spring embedded WebApplicationContext
+INFO: 2018-05-20 17:40:34 logId[2147483632] [localhost-startStop-1] org.springframework.web.context.ContextLoader:276 - Root WebApplicationContext: initialization completed in 2446 ms
+INFO: 2018-05-20 17:40:39 logId[2147483632] [localhost-startStop-1] o.s.orm.jpa.LocalContainerEntityManagerFactoryBean:356 - Building JPA container EntityManagerFactory for persistence unit 'default'
+INFO: 2018-05-20 17:40:39 logId[2147483632] [localhost-startStop-1] org.hibernate.jpa.internal.util.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+INFO: 2018-05-20 17:40:39 logId[2147483632] [localhost-startStop-1] org.hibernate.Version:37 - HHH000412: Hibernate Core {5.0.12.Final}
+INFO: 2018-05-20 17:40:39 logId[2147483632] [localhost-startStop-1] org.hibernate.cfg.Environment:213 - HHH000206: hibernate.properties not found
+INFO: 2018-05-20 17:40:39 logId[2147483632] [localhost-startStop-1] org.hibernate.cfg.Environment:317 - HHH000021: Bytecode provider name : javassist
+INFO: 2018-05-20 17:40:39 logId[2147483632] [localhost-startStop-1] org.hibernate.annotations.common.Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+INFO: 2018-05-20 17:40:40 logId[2147483632] [localhost-startStop-1] org.hibernate.dialect.Dialect:156 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+INFO: 2018-05-20 17:40:40 logId[2147483632] [localhost-startStop-1] o.s.orm.jpa.LocalContainerEntityManagerFactoryBean:392 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+INFO: 2018-05-20 17:40:41 logId[2147483632] [localhost-startStop-1] o.h.hql.internal.QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+INFO: 2018-05-20 17:40:41 logId[2147483632] [localhost-startStop-1] o.s.boot.web.servlet.FilterRegistrationBean:258 - Mapping filter: 'characterEncodingFilter' to: [/*]
+INFO: 2018-05-20 17:40:41 logId[2147483632] [localhost-startStop-1] o.s.boot.web.servlet.FilterRegistrationBean:258 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+INFO: 2018-05-20 17:40:41 logId[2147483632] [localhost-startStop-1] o.s.boot.web.servlet.FilterRegistrationBean:258 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+INFO: 2018-05-20 17:40:41 logId[2147483632] [localhost-startStop-1] o.s.boot.web.servlet.FilterRegistrationBean:258 - Mapping filter: 'requestContextFilter' to: [/*]
+INFO: 2018-05-20 17:40:41 logId[2147483632] [localhost-startStop-1] o.s.boot.web.servlet.FilterRegistrationBean:271 - Mapping filter: 'PrivilegeFilter' to urls: [/*]
+INFO: 2018-05-20 17:40:41 logId[2147483632] [localhost-startStop-1] o.s.boot.web.servlet.FilterRegistrationBean:258 - Mapping filter: 'remoteIpFilter' to: [/*]
+INFO: 2018-05-20 17:40:41 logId[2147483632] [localhost-startStop-1] o.s.boot.web.servlet.ServletRegistrationBean:190 - Mapping servlet: 'dispatcherServlet' to [/]
+INFO: 2018-05-20 17:40:42 logId[2147483637] [restartedMain] o.s.web.servlet.handler.SimpleUrlHandlerMapping:362 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+INFO: 2018-05-20 17:40:42 logId[2147483637] [restartedMain] o.s.web.servlet.handler.SimpleUrlHandlerMapping:362 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+INFO: 2018-05-20 17:40:42 logId[2147483637] [restartedMain] o.s.web.servlet.handler.SimpleUrlHandlerMapping:362 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+INFO: 2018-05-20 17:40:42 logId[2147483637] [restartedMain] o.s.b.d.autoconfigure.OptionalLiveReloadServer:58 - LiveReload server is running on port 35729
+INFO: 2018-05-20 17:40:42 logId[2147483637] [restartedMain] o.s.jmx.export.annotation.AnnotationMBeanExporter:431 - Registering beans for JMX exposure on startup
+INFO: 2018-05-20 17:40:42 logId[2147483637] [restartedMain] o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer:201 - Tomcat started on port(s): 5678 (http)
+INFO: 2018-05-20 17:40:42 logId[2147483637] [restartedMain] c.s.arch.udata.privilege.UdataPrivilegeApplication:57 - Started UdataPrivilegeApplication in 11.395 seconds (JVM running for 12.201)
+INFO: 2018-05-20 17:40:48 logId[2147483623] [http-nio-5678-exec-1] o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]:179 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+INFO: 2018-05-20 17:40:48 logId[2147483623] [http-nio-5678-exec-1] org.springframework.web.servlet.DispatcherServlet:489 - FrameworkServlet 'dispatcherServlet': initialization started
+INFO: 2018-05-20 17:40:48 logId[2147483623] [http-nio-5678-exec-1] org.springframework.web.servlet.DispatcherServlet:508 - FrameworkServlet 'dispatcherServlet': initialization completed in 27 ms
+INFO: 2018-05-20 17:40:48 logId[2147483623] [http-nio-5678-exec-1] com.sf.arch.udata.privilege.common.util.Encryptor:76 - information before decode: 072183143146148063150007070040082123109217122131124244133
+INFO: 2018-05-20 17:40:48 logId[2147483623] [http-nio-5678-exec-1] com.sf.arch.udata.privilege.common.util.Encryptor:86 - information after decode: 01372785,1522140472
+INFO: 2018-05-20 17:40:48 logId[2147483623] [http-nio-5678-exec-1] c.s.a.u.privilege.common.filter.PrivilegeFilter:69 - Welcome 01372785 !
+INFO: 2018-05-20 17:40:48 logId[2147483623] [http-nio-5678-exec-1] c.s.arch.udata.privilege.common.util.PrivilegeUtil:58 - /role/findAll has privilege in COMMON_PRIVILEGES.
+INFO: 2018-05-20 17:40:48 logId[2147483623] [http-nio-5678-exec-1] c.s.a.u.privilege.common.filter.PrivilegeFilter:82 - Execute time: 8
+INFO: 2018-05-20 17:40:48 logId[2147483623] [http-nio-5678-exec-1] com.sf.arch.udata.privilege.common.util.Encryptor:76 - information before decode: 072183143146148063150007070040082123109217122131124244133
+INFO: 2018-05-20 17:40:48 logId[2147483623] [http-nio-5678-exec-1] com.sf.arch.udata.privilege.common.util.Encryptor:86 - information after decode: 01372785,1522140472
+INFO: 2018-05-20 17:40:49 logId[2147483623] [http-nio-5678-exec-1] com.sf.arch.udata.privilege.common.util.Encryptor:76 - information before decode: 072183143146148063150007070040082123109217122131124244133
+INFO: 2018-05-20 17:40:49 logId[2147483623] [http-nio-5678-exec-1] com.sf.arch.udata.privilege.common.util.Encryptor:86 - information after decode: 01372785,1522140472
+INFO: 2018-05-20 17:40:56 logId[2147483622] [http-nio-5678-exec-2] com.sf.arch.udata.privilege.common.util.Encryptor:76 - information before decode: 072183143146148063150007070040082123109217122131124244133
+INFO: 2018-05-20 17:40:56 logId[2147483622] [http-nio-5678-exec-2] com.sf.arch.udata.privilege.common.util.Encryptor:86 - information after decode: 01372785,1522140472
+INFO: 2018-05-20 17:40:56 logId[2147483622] [http-nio-5678-exec-2] c.s.a.u.privilege.common.filter.PrivilegeFilter:69 - Welcome 01372785 !
+INFO: 2018-05-20 17:40:56 logId[2147483622] [http-nio-5678-exec-2] c.s.arch.udata.privilege.common.util.PrivilegeUtil:58 - /role/findAll has privilege in COMMON_PRIVILEGES.
+INFO: 2018-05-20 17:40:56 logId[2147483622] [http-nio-5678-exec-2] c.s.a.u.privilege.common.filter.PrivilegeFilter:82 - Execute time: 2
+INFO: 2018-05-20 17:40:56 logId[2147483622] [http-nio-5678-exec-2] com.sf.arch.udata.privilege.common.util.Encryptor:76 - information before decode: 072183143146148063150007070040082123109217122131124244133
+INFO: 2018-05-20 17:40:56 logId[2147483622] [http-nio-5678-exec-2] com.sf.arch.udata.privilege.common.util.Encryptor:86 - information after decode: 01372785,1522140472
+INFO: 2018-05-20 17:40:58 logId[2147483622] [http-nio-5678-exec-2] com.sf.arch.udata.privilege.common.util.Encryptor:76 - information before decode: 072183143146148063150007070040082123109217122131124244133
+INFO: 2018-05-20 17:40:58 logId[2147483622] [http-nio-5678-exec-2] com.sf.arch.udata.privilege.common.util.Encryptor:86 - information after decode: 01372785,1522140472
+INFO: 2018-05-20 17:42:09 logId[2147483625] [restartedMain] c.s.arch.udata.privilege.UdataPrivilegeApplication:48 - Starting UdataPrivilegeApplication on xiangyongqingdeMacBook-Pro.local with PID 44659 (/Users/xiangyongqing/IdeaProjects/udata-privilege/target/classes started by xiangyongqing in /Users/xiangyongqing/IdeaProjects/udata-privilege)
+DEBUG: 2018-05-20 17:42:09 logId[2147483625] [restartedMain] c.s.arch.udata.privilege.UdataPrivilegeApplication:51 - Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+INFO: 2018-05-20 17:42:09 logId[2147483625] [restartedMain] c.s.arch.udata.privilege.UdataPrivilegeApplication:597 - The following profiles are active: offline
+INFO: 2018-05-20 17:42:09 logId[2147483625] [restartedMain] o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext:583 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4e12c126: startup date [Sun May 20 17:42:09 CST 2018]; root of context hierarchy
+INFO: 2018-05-20 17:42:12 logId[2147483625] [restartedMain] o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer:89 - Tomcat initialized with port(s): 5678 (http)
+INFO: 2018-05-20 17:42:12 logId[2147483625] [restartedMain] org.apache.catalina.core.StandardService:179 - Starting service [Tomcat]
+INFO: 2018-05-20 17:42:12 logId[2147483625] [restartedMain] org.apache.catalina.core.StandardEngine:179 - Starting Servlet Engine: Apache Tomcat/8.5.23
+INFO: 2018-05-20 17:42:12 logId[2147483615] [localhost-startStop-1] o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]:179 - Initializing Spring embedded WebApplicationContext
+INFO: 2018-05-20 17:42:12 logId[2147483615] [localhost-startStop-1] org.springframework.web.context.ContextLoader:276 - Root WebApplicationContext: initialization completed in 3104 ms
+INFO: 2018-05-20 17:42:17 logId[2147483615] [localhost-startStop-1] o.s.orm.jpa.LocalContainerEntityManagerFactoryBean:356 - Building JPA container EntityManagerFactory for persistence unit 'default'
+INFO: 2018-05-20 17:42:17 logId[2147483615] [localhost-startStop-1] org.hibernate.jpa.internal.util.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+INFO: 2018-05-20 17:42:17 logId[2147483615] [localhost-startStop-1] org.hibernate.Version:37 - HHH000412: Hibernate Core {5.0.12.Final}
+INFO: 2018-05-20 17:42:17 logId[2147483615] [localhost-startStop-1] org.hibernate.cfg.Environment:213 - HHH000206: hibernate.properties not found
+INFO: 2018-05-20 17:42:17 logId[2147483615] [localhost-startStop-1] org.hibernate.cfg.Environment:317 - HHH000021: Bytecode provider name : javassist
+INFO: 2018-05-20 17:42:17 logId[2147483615] [localhost-startStop-1] org.hibernate.annotations.common.Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+INFO: 2018-05-20 17:42:18 logId[2147483615] [localhost-startStop-1] org.hibernate.dialect.Dialect:156 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+INFO: 2018-05-20 17:42:18 logId[2147483615] [localhost-startStop-1] o.s.orm.jpa.LocalContainerEntityManagerFactoryBean:392 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+INFO: 2018-05-20 17:42:18 logId[2147483615] [localhost-startStop-1] o.h.hql.internal.QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+INFO: 2018-05-20 17:42:19 logId[2147483615] [localhost-startStop-1] o.s.boot.web.servlet.FilterRegistrationBean:258 - Mapping filter: 'characterEncodingFilter' to: [/*]
+INFO: 2018-05-20 17:42:19 logId[2147483615] [localhost-startStop-1] o.s.boot.web.servlet.FilterRegistrationBean:258 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+INFO: 2018-05-20 17:42:19 logId[2147483615] [localhost-startStop-1] o.s.boot.web.servlet.FilterRegistrationBean:258 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+INFO: 2018-05-20 17:42:19 logId[2147483615] [localhost-startStop-1] o.s.boot.web.servlet.FilterRegistrationBean:258 - Mapping filter: 'requestContextFilter' to: [/*]
+INFO: 2018-05-20 17:42:19 logId[2147483615] [localhost-startStop-1] o.s.boot.web.servlet.FilterRegistrationBean:271 - Mapping filter: 'PrivilegeFilter' to urls: [/*]
+INFO: 2018-05-20 17:42:19 logId[2147483615] [localhost-startStop-1] o.s.boot.web.servlet.FilterRegistrationBean:258 - Mapping filter: 'remoteIpFilter' to: [/*]
+INFO: 2018-05-20 17:42:19 logId[2147483615] [localhost-startStop-1] o.s.boot.web.servlet.ServletRegistrationBean:190 - Mapping servlet: 'dispatcherServlet' to [/]
+INFO: 2018-05-20 17:42:20 logId[2147483625] [restartedMain] o.s.web.servlet.handler.SimpleUrlHandlerMapping:362 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+INFO: 2018-05-20 17:42:20 logId[2147483625] [restartedMain] o.s.web.servlet.handler.SimpleUrlHandlerMapping:362 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+INFO: 2018-05-20 17:42:20 logId[2147483625] [restartedMain] o.s.web.servlet.handler.SimpleUrlHandlerMapping:362 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+INFO: 2018-05-20 17:42:20 logId[2147483625] [restartedMain] o.s.b.d.autoconfigure.OptionalLiveReloadServer:58 - LiveReload server is running on port 35729
+INFO: 2018-05-20 17:42:20 logId[2147483625] [restartedMain] o.s.jmx.export.annotation.AnnotationMBeanExporter:431 - Registering beans for JMX exposure on startup
+INFO: 2018-05-20 17:42:20 logId[2147483625] [restartedMain] o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer:201 - Tomcat started on port(s): 5678 (http)
+INFO: 2018-05-20 17:42:20 logId[2147483625] [restartedMain] c.s.arch.udata.privilege.UdataPrivilegeApplication:57 - Started UdataPrivilegeApplication in 11.555 seconds (JVM running for 13.286)
+INFO: 2018-05-20 17:42:51 logId[2147483575] [Thread-34] o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext:984 - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4e12c126: startup date [Sun May 20 17:42:09 CST 2018]; root of context hierarchy
+INFO: 2018-05-20 17:42:51 logId[2147483575] [Thread-34] o.s.jmx.export.annotation.AnnotationMBeanExporter:449 - Unregistering JMX-exposed beans on shutdown
+INFO: 2018-05-20 17:42:51 logId[2147483575] [Thread-34] o.s.orm.jpa.LocalContainerEntityManagerFactoryBean:563 - Closing JPA EntityManagerFactory for persistence unit 'default'
+INFO: 2018-05-20 17:42:58 logId[2147483626] [restartedMain] c.s.arch.udata.privilege.UdataPrivilegeApplication:48 - Starting UdataPrivilegeApplication on xiangyongqingdeMacBook-Pro.local with PID 44693 (/Users/xiangyongqing/IdeaProjects/udata-privilege/target/classes started by xiangyongqing in /Users/xiangyongqing/IdeaProjects/udata-privilege)
+DEBUG: 2018-05-20 17:42:58 logId[2147483626] [restartedMain] c.s.arch.udata.privilege.UdataPrivilegeApplication:51 - Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+INFO: 2018-05-20 17:42:58 logId[2147483626] [restartedMain] c.s.arch.udata.privilege.UdataPrivilegeApplication:597 - The following profiles are active: offline
+INFO: 2018-05-20 17:42:58 logId[2147483626] [restartedMain] o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext:583 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@139091bb: startup date [Sun May 20 17:42:58 CST 2018]; root of context hierarchy
+INFO: 2018-05-20 17:43:00 logId[2147483626] [restartedMain] o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer:89 - Tomcat initialized with port(s): 5678 (http)
+INFO: 2018-05-20 17:43:00 logId[2147483626] [restartedMain] org.apache.catalina.core.StandardService:179 - Starting service [Tomcat]
+INFO: 2018-05-20 17:43:00 logId[2147483626] [restartedMain] org.apache.catalina.core.StandardEngine:179 - Starting Servlet Engine: Apache Tomcat/8.5.23
+INFO: 2018-05-20 17:43:00 logId[2147483615] [localhost-startStop-1] o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]:179 - Initializing Spring embedded WebApplicationContext
+INFO: 2018-05-20 17:43:00 logId[2147483615] [localhost-startStop-1] org.springframework.web.context.ContextLoader:276 - Root WebApplicationContext: initialization completed in 2342 ms
+INFO: 2018-05-20 17:43:12 logId[2147483615] [localhost-startStop-1] o.s.orm.jpa.LocalContainerEntityManagerFactoryBean:356 - Building JPA container EntityManagerFactory for persistence unit 'default'
+INFO: 2018-05-20 17:43:12 logId[2147483615] [localhost-startStop-1] org.hibernate.jpa.internal.util.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+INFO: 2018-05-20 17:43:12 logId[2147483615] [localhost-startStop-1] org.hibernate.Version:37 - HHH000412: Hibernate Core {5.0.12.Final}
+INFO: 2018-05-20 17:43:12 logId[2147483615] [localhost-startStop-1] org.hibernate.cfg.Environment:213 - HHH000206: hibernate.properties not found
+INFO: 2018-05-20 17:43:12 logId[2147483615] [localhost-startStop-1] org.hibernate.cfg.Environment:317 - HHH000021: Bytecode provider name : javassist
+INFO: 2018-05-20 17:43:12 logId[2147483615] [localhost-startStop-1] org.hibernate.annotations.common.Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+INFO: 2018-05-20 17:43:12 logId[2147483615] [localhost-startStop-1] org.hibernate.dialect.Dialect:156 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+INFO: 2018-05-20 17:43:13 logId[2147483615] [localhost-startStop-1] o.s.orm.jpa.LocalContainerEntityManagerFactoryBean:392 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+INFO: 2018-05-20 17:43:13 logId[2147483615] [localhost-startStop-1] o.h.hql.internal.QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+INFO: 2018-05-20 17:43:13 logId[2147483615] [localhost-startStop-1] o.s.boot.web.servlet.FilterRegistrationBean:258 - Mapping filter: 'characterEncodingFilter' to: [/*]
+INFO: 2018-05-20 17:43:13 logId[2147483615] [localhost-startStop-1] o.s.boot.web.servlet.FilterRegistrationBean:258 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+INFO: 2018-05-20 17:43:13 logId[2147483615] [localhost-startStop-1] o.s.boot.web.servlet.FilterRegistrationBean:258 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+INFO: 2018-05-20 17:43:13 logId[2147483615] [localhost-startStop-1] o.s.boot.web.servlet.FilterRegistrationBean:258 - Mapping filter: 'requestContextFilter' to: [/*]
+INFO: 2018-05-20 17:43:13 logId[2147483615] [localhost-startStop-1] o.s.boot.web.servlet.FilterRegistrationBean:271 - Mapping filter: 'PrivilegeFilter' to urls: [/*]
+INFO: 2018-05-20 17:43:13 logId[2147483615] [localhost-startStop-1] o.s.boot.web.servlet.FilterRegistrationBean:258 - Mapping filter: 'remoteIpFilter' to: [/*]
+INFO: 2018-05-20 17:43:13 logId[2147483615] [localhost-startStop-1] o.s.boot.web.servlet.ServletRegistrationBean:190 - Mapping servlet: 'dispatcherServlet' to [/]
+INFO: 2018-05-20 17:43:14 logId[2147483626] [restartedMain] o.s.web.servlet.handler.SimpleUrlHandlerMapping:362 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+INFO: 2018-05-20 17:43:14 logId[2147483626] [restartedMain] o.s.web.servlet.handler.SimpleUrlHandlerMapping:362 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+INFO: 2018-05-20 17:43:14 logId[2147483626] [restartedMain] o.s.web.servlet.handler.SimpleUrlHandlerMapping:362 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+INFO: 2018-05-20 17:43:14 logId[2147483626] [restartedMain] o.s.b.d.autoconfigure.OptionalLiveReloadServer:58 - LiveReload server is running on port 35729
+INFO: 2018-05-20 17:43:14 logId[2147483626] [restartedMain] o.s.jmx.export.annotation.AnnotationMBeanExporter:431 - Registering beans for JMX exposure on startup
+INFO: 2018-05-20 17:43:14 logId[2147483626] [restartedMain] o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer:201 - Tomcat started on port(s): 5678 (http)
+INFO: 2018-05-20 17:43:14 logId[2147483626] [restartedMain] c.s.arch.udata.privilege.UdataPrivilegeApplication:57 - Started UdataPrivilegeApplication in 17.063 seconds (JVM running for 18.366)
+INFO: 2018-05-20 17:44:20 logId[2147483579] [http-nio-5678-exec-1] o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]:179 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+INFO: 2018-05-20 17:44:20 logId[2147483579] [http-nio-5678-exec-1] org.springframework.web.servlet.DispatcherServlet:489 - FrameworkServlet 'dispatcherServlet': initialization started
+INFO: 2018-05-20 17:44:20 logId[2147483579] [http-nio-5678-exec-1] org.springframework.web.servlet.DispatcherServlet:508 - FrameworkServlet 'dispatcherServlet': initialization completed in 26 ms
+INFO: 2018-05-20 17:44:20 logId[2147483579] [http-nio-5678-exec-1] com.sf.arch.udata.privilege.common.util.Encryptor:76 - information before decode: 072183143146148063150007070040082123109217122131124244133
+INFO: 2018-05-20 17:44:20 logId[2147483579] [http-nio-5678-exec-1] com.sf.arch.udata.privilege.common.util.Encryptor:86 - information after decode: 01372785,1522140472
+INFO: 2018-05-20 17:44:25 logId[2147483579] [http-nio-5678-exec-1] c.s.a.u.privilege.common.filter.PrivilegeFilter:69 - Welcome 01372785 !
+INFO: 2018-05-20 17:44:25 logId[2147483579] [http-nio-5678-exec-1] c.s.arch.udata.privilege.common.util.PrivilegeUtil:58 - /role/findAll has privilege in COMMON_PRIVILEGES.
+INFO: 2018-05-20 17:44:25 logId[2147483579] [http-nio-5678-exec-1] c.s.a.u.privilege.common.filter.PrivilegeFilter:82 - Execute time: 4246
+INFO: 2018-05-20 17:44:25 logId[2147483579] [http-nio-5678-exec-1] com.sf.arch.udata.privilege.common.util.Encryptor:76 - information before decode: 072183143146148063150007070040082123109217122131124244133
+INFO: 2018-05-20 17:44:25 logId[2147483579] [http-nio-5678-exec-1] com.sf.arch.udata.privilege.common.util.Encryptor:86 - information after decode: 01372785,1522140472
+INFO: 2018-05-20 17:44:26 logId[2147483579] [http-nio-5678-exec-1] com.sf.arch.udata.privilege.common.util.Encryptor:76 - information before decode: 072183143146148063150007070040082123109217122131124244133
+INFO: 2018-05-20 17:44:26 logId[2147483579] [http-nio-5678-exec-1] com.sf.arch.udata.privilege.common.util.Encryptor:86 - information after decode: 01372785,1522140472
+INFO: 2018-05-20 17:51:09 logId[2147483565] [Thread-44] o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext:984 - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@139091bb: startup date [Sun May 20 17:42:58 CST 2018]; root of context hierarchy
+INFO: 2018-05-20 17:51:09 logId[2147483565] [Thread-44] o.s.jmx.export.annotation.AnnotationMBeanExporter:449 - Unregistering JMX-exposed beans on shutdown
+INFO: 2018-05-20 17:51:09 logId[2147483565] [Thread-44] o.s.orm.jpa.LocalContainerEntityManagerFactoryBean:563 - Closing JPA EntityManagerFactory for persistence unit 'default'
+INFO: 2018-05-20 17:51:14 logId[2147483628] [restartedMain] c.s.arch.udata.privilege.UdataPrivilegeApplication:48 - Starting UdataPrivilegeApplication on xiangyongqingdeMacBook-Pro.local with PID 44984 (/Users/xiangyongqing/IdeaProjects/udata-privilege/target/classes started by xiangyongqing in /Users/xiangyongqing/IdeaProjects/udata-privilege)
+DEBUG: 2018-05-20 17:51:14 logId[2147483628] [restartedMain] c.s.arch.udata.privilege.UdataPrivilegeApplication:51 - Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+INFO: 2018-05-20 17:51:14 logId[2147483628] [restartedMain] c.s.arch.udata.privilege.UdataPrivilegeApplication:597 - The following profiles are active: offline
+INFO: 2018-05-20 17:51:14 logId[2147483628] [restartedMain] o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext:583 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2e5fc661: startup date [Sun May 20 17:51:14 CST 2018]; root of context hierarchy
+INFO: 2018-05-20 17:51:15 logId[2147483628] [restartedMain] o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer:89 - Tomcat initialized with port(s): 5678 (http)
+INFO: 2018-05-20 17:51:15 logId[2147483628] [restartedMain] org.apache.catalina.core.StandardService:179 - Starting service [Tomcat]
+INFO: 2018-05-20 17:51:15 logId[2147483628] [restartedMain] org.apache.catalina.core.StandardEngine:179 - Starting Servlet Engine: Apache Tomcat/8.5.23
+INFO: 2018-05-20 17:51:15 logId[2147483621] [localhost-startStop-1] o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]:179 - Initializing Spring embedded WebApplicationContext
+INFO: 2018-05-20 17:51:15 logId[2147483621] [localhost-startStop-1] org.springframework.web.context.ContextLoader:276 - Root WebApplicationContext: initialization completed in 1530 ms
+INFO: 2018-05-20 17:51:20 logId[2147483621] [localhost-startStop-1] o.s.orm.jpa.LocalContainerEntityManagerFactoryBean:356 - Building JPA container EntityManagerFactory for persistence unit 'default'
+INFO: 2018-05-20 17:51:20 logId[2147483621] [localhost-startStop-1] org.hibernate.jpa.internal.util.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+INFO: 2018-05-20 17:51:20 logId[2147483621] [localhost-startStop-1] org.hibernate.Version:37 - HHH000412: Hibernate Core {5.0.12.Final}
+INFO: 2018-05-20 17:51:20 logId[2147483621] [localhost-startStop-1] org.hibernate.cfg.Environment:213 - HHH000206: hibernate.properties not found
+INFO: 2018-05-20 17:51:20 logId[2147483621] [localhost-startStop-1] org.hibernate.cfg.Environment:317 - HHH000021: Bytecode provider name : javassist
+INFO: 2018-05-20 17:51:20 logId[2147483621] [localhost-startStop-1] org.hibernate.annotations.common.Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+INFO: 2018-05-20 17:51:20 logId[2147483621] [localhost-startStop-1] org.hibernate.dialect.Dialect:156 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+INFO: 2018-05-20 17:51:21 logId[2147483621] [localhost-startStop-1] o.s.orm.jpa.LocalContainerEntityManagerFactoryBean:392 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+INFO: 2018-05-20 17:51:21 logId[2147483621] [localhost-startStop-1] o.h.hql.internal.QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+INFO: 2018-05-20 17:51:21 logId[2147483621] [localhost-startStop-1] o.s.boot.web.servlet.FilterRegistrationBean:258 - Mapping filter: 'characterEncodingFilter' to: [/*]
+INFO: 2018-05-20 17:51:21 logId[2147483621] [localhost-startStop-1] o.s.boot.web.servlet.FilterRegistrationBean:258 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+INFO: 2018-05-20 17:51:21 logId[2147483621] [localhost-startStop-1] o.s.boot.web.servlet.FilterRegistrationBean:258 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+INFO: 2018-05-20 17:51:21 logId[2147483621] [localhost-startStop-1] o.s.boot.web.servlet.FilterRegistrationBean:258 - Mapping filter: 'requestContextFilter' to: [/*]
+INFO: 2018-05-20 17:51:21 logId[2147483621] [localhost-startStop-1] o.s.boot.web.servlet.FilterRegistrationBean:271 - Mapping filter: 'PrivilegeFilter' to urls: [/*]
+INFO: 2018-05-20 17:51:21 logId[2147483621] [localhost-startStop-1] o.s.boot.web.servlet.FilterRegistrationBean:258 - Mapping filter: 'remoteIpFilter' to: [/*]
+INFO: 2018-05-20 17:51:21 logId[2147483621] [localhost-startStop-1] o.s.boot.web.servlet.ServletRegistrationBean:190 - Mapping servlet: 'dispatcherServlet' to [/]
+INFO: 2018-05-20 17:51:22 logId[2147483628] [restartedMain] o.s.web.servlet.handler.SimpleUrlHandlerMapping:362 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+INFO: 2018-05-20 17:51:22 logId[2147483628] [restartedMain] o.s.web.servlet.handler.SimpleUrlHandlerMapping:362 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+INFO: 2018-05-20 17:51:22 logId[2147483628] [restartedMain] o.s.web.servlet.handler.SimpleUrlHandlerMapping:362 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+INFO: 2018-05-20 17:51:22 logId[2147483628] [restartedMain] o.s.b.d.autoconfigure.OptionalLiveReloadServer:58 - LiveReload server is running on port 35729
+INFO: 2018-05-20 17:51:22 logId[2147483628] [restartedMain] o.s.jmx.export.annotation.AnnotationMBeanExporter:431 - Registering beans for JMX exposure on startup
+INFO: 2018-05-20 17:51:22 logId[2147483628] [restartedMain] o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer:201 - Tomcat started on port(s): 5678 (http)
+INFO: 2018-05-20 17:51:22 logId[2147483628] [restartedMain] c.s.arch.udata.privilege.UdataPrivilegeApplication:57 - Started UdataPrivilegeApplication in 8.318 seconds (JVM running for 9.568)
+INFO: 2018-05-20 17:51:52 logId[2147483599] [http-nio-5678-exec-1] o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]:179 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+INFO: 2018-05-20 17:51:52 logId[2147483599] [http-nio-5678-exec-1] org.springframework.web.servlet.DispatcherServlet:489 - FrameworkServlet 'dispatcherServlet': initialization started
+INFO: 2018-05-20 17:51:52 logId[2147483599] [http-nio-5678-exec-1] org.springframework.web.servlet.DispatcherServlet:508 - FrameworkServlet 'dispatcherServlet': initialization completed in 20 ms
+INFO: 2018-05-20 17:51:52 logId[2147483599] [http-nio-5678-exec-1] com.sf.arch.udata.privilege.common.util.Encryptor:76 - information before decode: 072183143146148063150007070040082123109217122131124244133
+INFO: 2018-05-20 17:51:52 logId[2147483599] [http-nio-5678-exec-1] com.sf.arch.udata.privilege.common.util.Encryptor:86 - information after decode: 01372785,1522140472
+INFO: 2018-05-20 17:51:52 logId[2147483599] [http-nio-5678-exec-1] c.s.a.u.privilege.common.filter.PrivilegeFilter:69 - Welcome 01372785 !
+INFO: 2018-05-20 17:51:52 logId[2147483599] [http-nio-5678-exec-1] c.s.arch.udata.privilege.common.util.PrivilegeUtil:58 - /role/findAll has privilege in COMMON_PRIVILEGES.
+INFO: 2018-05-20 17:51:52 logId[2147483599] [http-nio-5678-exec-1] c.s.a.u.privilege.common.filter.PrivilegeFilter:82 - Execute time: 10
+INFO: 2018-05-20 17:51:52 logId[2147483599] [http-nio-5678-exec-1] com.sf.arch.udata.privilege.common.util.Encryptor:76 - information before decode: 072183143146148063150007070040082123109217122131124244133
+INFO: 2018-05-20 17:51:52 logId[2147483599] [http-nio-5678-exec-1] com.sf.arch.udata.privilege.common.util.Encryptor:86 - information after decode: 01372785,1522140472
+INFO: 2018-05-20 17:51:53 logId[2147483599] [http-nio-5678-exec-1] com.sf.arch.udata.privilege.common.util.Encryptor:76 - information before decode: 072183143146148063150007070040082123109217122131124244133
+INFO: 2018-05-20 17:51:53 logId[2147483599] [http-nio-5678-exec-1] com.sf.arch.udata.privilege.common.util.Encryptor:86 - information after decode: 01372785,1522140472
+INFO: 2018-05-20 17:52:03 logId[2147483585] [Thread-27] o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext:984 - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2e5fc661: startup date [Sun May 20 17:51:14 CST 2018]; root of context hierarchy
+INFO: 2018-05-20 17:52:03 logId[2147483585] [Thread-27] o.s.jmx.export.annotation.AnnotationMBeanExporter:449 - Unregistering JMX-exposed beans on shutdown
+INFO: 2018-05-20 17:52:03 logId[2147483585] [Thread-27] o.s.orm.jpa.LocalContainerEntityManagerFactoryBean:563 - Closing JPA EntityManagerFactory for persistence unit 'default'
+INFO: 2018-05-20 18:24:34 logId[2147483627] [restartedMain] c.s.arch.udata.privilege.UdataPrivilegeApplication:48 - Starting UdataPrivilegeApplication on xiangyongqingdeMacBook-Pro.local with PID 46175 (/Users/xiangyongqing/IdeaProjects/udata-privilege/target/classes started by xiangyongqing in /Users/xiangyongqing/IdeaProjects/udata-privilege)
+DEBUG: 2018-05-20 18:24:34 logId[2147483627] [restartedMain] c.s.arch.udata.privilege.UdataPrivilegeApplication:51 - Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+INFO: 2018-05-20 18:24:34 logId[2147483627] [restartedMain] c.s.arch.udata.privilege.UdataPrivilegeApplication:597 - The following profiles are active: offline
+INFO: 2018-05-20 18:24:34 logId[2147483627] [restartedMain] o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext:583 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3c41e4f9: startup date [Sun May 20 18:24:34 CST 2018]; root of context hierarchy
+INFO: 2018-05-20 18:24:36 logId[2147483627] [restartedMain] o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer:89 - Tomcat initialized with port(s): 5678 (http)
+INFO: 2018-05-20 18:24:36 logId[2147483627] [restartedMain] org.apache.catalina.core.StandardService:179 - Starting service [Tomcat]
+INFO: 2018-05-20 18:24:36 logId[2147483627] [restartedMain] org.apache.catalina.core.StandardEngine:179 - Starting Servlet Engine: Apache Tomcat/8.5.23
+INFO: 2018-05-20 18:24:36 logId[2147483619] [localhost-startStop-1] o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]:179 - Initializing Spring embedded WebApplicationContext
+INFO: 2018-05-20 18:24:36 logId[2147483619] [localhost-startStop-1] org.springframework.web.context.ContextLoader:276 - Root WebApplicationContext: initialization completed in 2233 ms
+INFO: 2018-05-20 18:24:41 logId[2147483619] [localhost-startStop-1] o.s.orm.jpa.LocalContainerEntityManagerFactoryBean:356 - Building JPA container EntityManagerFactory for persistence unit 'default'
+INFO: 2018-05-20 18:24:41 logId[2147483619] [localhost-startStop-1] org.hibernate.jpa.internal.util.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+INFO: 2018-05-20 18:24:41 logId[2147483619] [localhost-startStop-1] org.hibernate.Version:37 - HHH000412: Hibernate Core {5.0.12.Final}
+INFO: 2018-05-20 18:24:41 logId[2147483619] [localhost-startStop-1] org.hibernate.cfg.Environment:213 - HHH000206: hibernate.properties not found
+INFO: 2018-05-20 18:24:41 logId[2147483619] [localhost-startStop-1] org.hibernate.cfg.Environment:317 - HHH000021: Bytecode provider name : javassist
+INFO: 2018-05-20 18:24:41 logId[2147483619] [localhost-startStop-1] org.hibernate.annotations.common.Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+INFO: 2018-05-20 18:24:42 logId[2147483619] [localhost-startStop-1] org.hibernate.dialect.Dialect:156 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+INFO: 2018-05-20 18:24:42 logId[2147483619] [localhost-startStop-1] o.s.orm.jpa.LocalContainerEntityManagerFactoryBean:392 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+INFO: 2018-05-20 18:24:42 logId[2147483619] [localhost-startStop-1] o.h.hql.internal.QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+INFO: 2018-05-20 18:24:43 logId[2147483619] [localhost-startStop-1] o.s.boot.web.servlet.FilterRegistrationBean:258 - Mapping filter: 'characterEncodingFilter' to: [/*]
+INFO: 2018-05-20 18:24:43 logId[2147483619] [localhost-startStop-1] o.s.boot.web.servlet.FilterRegistrationBean:258 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+INFO: 2018-05-20 18:24:43 logId[2147483619] [localhost-startStop-1] o.s.boot.web.servlet.FilterRegistrationBean:258 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+INFO: 2018-05-20 18:24:43 logId[2147483619] [localhost-startStop-1] o.s.boot.web.servlet.FilterRegistrationBean:258 - Mapping filter: 'requestContextFilter' to: [/*]
+INFO: 2018-05-20 18:24:43 logId[2147483619] [localhost-startStop-1] o.s.boot.web.servlet.FilterRegistrationBean:271 - Mapping filter: 'PrivilegeFilter' to urls: [/*]
+INFO: 2018-05-20 18:24:43 logId[2147483619] [localhost-startStop-1] o.s.boot.web.servlet.FilterRegistrationBean:258 - Mapping filter: 'remoteIpFilter' to: [/*]
+INFO: 2018-05-20 18:24:43 logId[2147483619] [localhost-startStop-1] o.s.boot.web.servlet.ServletRegistrationBean:190 - Mapping servlet: 'dispatcherServlet' to [/]
+INFO: 2018-05-20 18:24:43 logId[2147483627] [restartedMain] o.s.web.servlet.handler.SimpleUrlHandlerMapping:362 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+INFO: 2018-05-20 18:24:43 logId[2147483627] [restartedMain] o.s.web.servlet.handler.SimpleUrlHandlerMapping:362 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+INFO: 2018-05-20 18:24:43 logId[2147483627] [restartedMain] o.s.web.servlet.handler.SimpleUrlHandlerMapping:362 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+INFO: 2018-05-20 18:24:43 logId[2147483627] [restartedMain] o.s.b.d.autoconfigure.OptionalLiveReloadServer:58 - LiveReload server is running on port 35729
+INFO: 2018-05-20 18:24:44 logId[2147483627] [restartedMain] o.s.jmx.export.annotation.AnnotationMBeanExporter:431 - Registering beans for JMX exposure on startup
+INFO: 2018-05-20 18:24:44 logId[2147483627] [restartedMain] o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer:201 - Tomcat started on port(s): 5678 (http)
+INFO: 2018-05-20 18:24:44 logId[2147483627] [restartedMain] c.s.arch.udata.privilege.UdataPrivilegeApplication:57 - Started UdataPrivilegeApplication in 10.025 seconds (JVM running for 11.685)
+INFO: 2018-05-20 18:24:49 logId[2147483594] [http-nio-5678-exec-1] o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]:179 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+INFO: 2018-05-20 18:24:49 logId[2147483594] [http-nio-5678-exec-1] org.springframework.web.servlet.DispatcherServlet:489 - FrameworkServlet 'dispatcherServlet': initialization started
+INFO: 2018-05-20 18:24:49 logId[2147483594] [http-nio-5678-exec-1] org.springframework.web.servlet.DispatcherServlet:508 - FrameworkServlet 'dispatcherServlet': initialization completed in 22 ms
+INFO: 2018-05-20 18:24:49 logId[2147483594] [http-nio-5678-exec-1] com.sf.arch.udata.privilege.common.util.Encryptor:76 - information before decode: 072183143146148063150007070040082123109217122131124244133
+INFO: 2018-05-20 18:24:49 logId[2147483594] [http-nio-5678-exec-1] com.sf.arch.udata.privilege.common.util.Encryptor:86 - information after decode: 01372785,1522140472
+INFO: 2018-05-20 18:24:49 logId[2147483594] [http-nio-5678-exec-1] c.s.a.u.privilege.common.filter.PrivilegeFilter:69 - Welcome 01372785 !
+INFO: 2018-05-20 18:24:49 logId[2147483594] [http-nio-5678-exec-1] c.s.arch.udata.privilege.common.util.PrivilegeUtil:60 - /privilege/findPagePrivileges has privilege in COMMON_PRIVILEGES.
+INFO: 2018-05-20 18:24:49 logId[2147483594] [http-nio-5678-exec-1] c.s.a.u.privilege.common.filter.PrivilegeFilter:82 - Execute time: 8
+INFO: 2018-05-20 18:24:49 logId[2147483594] [http-nio-5678-exec-1] com.sf.arch.udata.privilege.common.util.Encryptor:76 - information before decode: 072183143146148063150007070040082123109217122131124244133
+INFO: 2018-05-20 18:24:49 logId[2147483594] [http-nio-5678-exec-1] com.sf.arch.udata.privilege.common.util.Encryptor:86 - information after decode: 01372785,1522140472
+INFO: 2018-05-20 18:24:50 logId[2147483594] [http-nio-5678-exec-1] com.sf.arch.udata.privilege.common.util.Encryptor:76 - information before decode: 072183143146148063150007070040082123109217122131124244133
+INFO: 2018-05-20 18:24:50 logId[2147483594] [http-nio-5678-exec-1] com.sf.arch.udata.privilege.common.util.Encryptor:86 - information after decode: 01372785,1522140472
+INFO: 2018-05-20 18:24:50 logId[2147483594] [http-nio-5678-exec-1] c.s.a.u.privilege.controller.PrivilegeController:120 - Welcome 01372785 !
+INFO: 2018-05-20 18:26:21 logId[2147483597] [Thread-28] o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext:984 - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3c41e4f9: startup date [Sun May 20 18:24:34 CST 2018]; root of context hierarchy
+INFO: 2018-05-20 18:26:21 logId[2147483597] [Thread-28] o.s.jmx.export.annotation.AnnotationMBeanExporter:449 - Unregistering JMX-exposed beans on shutdown
+INFO: 2018-05-20 18:26:21 logId[2147483597] [Thread-28] o.s.orm.jpa.LocalContainerEntityManagerFactoryBean:563 - Closing JPA EntityManagerFactory for persistence unit 'default'
+INFO: 2018-05-20 18:26:49 logId[2147483628] [restartedMain] c.s.arch.udata.privilege.UdataPrivilegeApplication:48 - Starting UdataPrivilegeApplication on xiangyongqingdeMacBook-Pro.local with PID 46270 (/Users/xiangyongqing/IdeaProjects/udata-privilege/target/classes started by xiangyongqing in /Users/xiangyongqing/IdeaProjects/udata-privilege)
+DEBUG: 2018-05-20 18:26:49 logId[2147483628] [restartedMain] c.s.arch.udata.privilege.UdataPrivilegeApplication:51 - Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+INFO: 2018-05-20 18:26:49 logId[2147483628] [restartedMain] c.s.arch.udata.privilege.UdataPrivilegeApplication:597 - The following profiles are active: offline
+INFO: 2018-05-20 18:26:49 logId[2147483628] [restartedMain] o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext:583 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3cf0dac5: startup date [Sun May 20 18:26:49 CST 2018]; root of context hierarchy
+INFO: 2018-05-20 18:26:50 logId[2147483628] [restartedMain] o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer:89 - Tomcat initialized with port(s): 5678 (http)
+INFO: 2018-05-20 18:26:51 logId[2147483628] [restartedMain] org.apache.catalina.core.StandardService:179 - Starting service [Tomcat]
+INFO: 2018-05-20 18:26:51 logId[2147483628] [restartedMain] org.apache.catalina.core.StandardEngine:179 - Starting Servlet Engine: Apache Tomcat/8.5.23
+INFO: 2018-05-20 18:26:51 logId[2147483620] [localhost-startStop-1] o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]:179 - Initializing Spring embedded WebApplicationContext
+INFO: 2018-05-20 18:26:51 logId[2147483620] [localhost-startStop-1] org.springframework.web.context.ContextLoader:276 - Root WebApplicationContext: initialization completed in 1694 ms
+INFO: 2018-05-20 18:26:56 logId[2147483620] [localhost-startStop-1] o.s.orm.jpa.LocalContainerEntityManagerFactoryBean:356 - Building JPA container EntityManagerFactory for persistence unit 'default'
+INFO: 2018-05-20 18:26:56 logId[2147483620] [localhost-startStop-1] org.hibernate.jpa.internal.util.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+INFO: 2018-05-20 18:26:56 logId[2147483620] [localhost-startStop-1] org.hibernate.Version:37 - HHH000412: Hibernate Core {5.0.12.Final}
+INFO: 2018-05-20 18:26:56 logId[2147483620] [localhost-startStop-1] org.hibernate.cfg.Environment:213 - HHH000206: hibernate.properties not found
+INFO: 2018-05-20 18:26:56 logId[2147483620] [localhost-startStop-1] org.hibernate.cfg.Environment:317 - HHH000021: Bytecode provider name : javassist
+INFO: 2018-05-20 18:26:56 logId[2147483620] [localhost-startStop-1] org.hibernate.annotations.common.Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+INFO: 2018-05-20 18:26:56 logId[2147483620] [localhost-startStop-1] org.hibernate.dialect.Dialect:156 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+INFO: 2018-05-20 18:26:56 logId[2147483620] [localhost-startStop-1] o.s.orm.jpa.LocalContainerEntityManagerFactoryBean:392 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+INFO: 2018-05-20 18:26:56 logId[2147483620] [localhost-startStop-1] o.h.hql.internal.QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+INFO: 2018-05-20 18:26:57 logId[2147483620] [localhost-startStop-1] o.s.boot.web.servlet.FilterRegistrationBean:258 - Mapping filter: 'characterEncodingFilter' to: [/*]
+INFO: 2018-05-20 18:26:57 logId[2147483620] [localhost-startStop-1] o.s.boot.web.servlet.FilterRegistrationBean:258 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+INFO: 2018-05-20 18:26:57 logId[2147483620] [localhost-startStop-1] o.s.boot.web.servlet.FilterRegistrationBean:258 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+INFO: 2018-05-20 18:26:57 logId[2147483620] [localhost-startStop-1] o.s.boot.web.servlet.FilterRegistrationBean:258 - Mapping filter: 'requestContextFilter' to: [/*]
+INFO: 2018-05-20 18:26:57 logId[2147483620] [localhost-startStop-1] o.s.boot.web.servlet.FilterRegistrationBean:271 - Mapping filter: 'PrivilegeFilter' to urls: [/*]
+INFO: 2018-05-20 18:26:57 logId[2147483620] [localhost-startStop-1] o.s.boot.web.servlet.FilterRegistrationBean:258 - Mapping filter: 'remoteIpFilter' to: [/*]
+INFO: 2018-05-20 18:26:57 logId[2147483620] [localhost-startStop-1] o.s.boot.web.servlet.ServletRegistrationBean:190 - Mapping servlet: 'dispatcherServlet' to [/]
+INFO: 2018-05-20 18:26:57 logId[2147483628] [restartedMain] o.s.web.servlet.handler.SimpleUrlHandlerMapping:362 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+INFO: 2018-05-20 18:26:57 logId[2147483628] [restartedMain] o.s.web.servlet.handler.SimpleUrlHandlerMapping:362 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+INFO: 2018-05-20 18:26:57 logId[2147483628] [restartedMain] o.s.web.servlet.handler.SimpleUrlHandlerMapping:362 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+INFO: 2018-05-20 18:26:57 logId[2147483628] [restartedMain] o.s.b.d.autoconfigure.OptionalLiveReloadServer:58 - LiveReload server is running on port 35729
+INFO: 2018-05-20 18:26:57 logId[2147483628] [restartedMain] o.s.jmx.export.annotation.AnnotationMBeanExporter:431 - Registering beans for JMX exposure on startup
+INFO: 2018-05-20 18:26:57 logId[2147483628] [restartedMain] o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer:201 - Tomcat started on port(s): 5678 (http)
+INFO: 2018-05-20 18:26:57 logId[2147483628] [restartedMain] c.s.arch.udata.privilege.UdataPrivilegeApplication:57 - Started UdataPrivilegeApplication in 8.813 seconds (JVM running for 9.731)
+INFO: 2018-05-20 18:27:05 logId[2147483598] [http-nio-5678-exec-1] o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]:179 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+INFO: 2018-05-20 18:27:05 logId[2147483598] [http-nio-5678-exec-1] org.springframework.web.servlet.DispatcherServlet:489 - FrameworkServlet 'dispatcherServlet': initialization started
+INFO: 2018-05-20 18:27:05 logId[2147483598] [http-nio-5678-exec-1] org.springframework.web.servlet.DispatcherServlet:508 - FrameworkServlet 'dispatcherServlet': initialization completed in 23 ms
+INFO: 2018-05-20 18:27:05 logId[2147483598] [http-nio-5678-exec-1] com.sf.arch.udata.privilege.common.util.Encryptor:76 - information before decode: 072183143146148063150007070040082123109217122131124244133
+INFO: 2018-05-20 18:27:05 logId[2147483598] [http-nio-5678-exec-1] com.sf.arch.udata.privilege.common.util.Encryptor:86 - information after decode: 01372785,1522140472
+INFO: 2018-05-20 18:27:05 logId[2147483598] [http-nio-5678-exec-1] c.s.a.u.privilege.common.filter.PrivilegeFilter:69 - Welcome 01372785 !
+INFO: 2018-05-20 18:27:05 logId[2147483598] [http-nio-5678-exec-1] c.s.arch.udata.privilege.common.util.PrivilegeUtil:59 - /privilege/findPagePrivileges has privilege in COMMON_PRIVILEGES.
+INFO: 2018-05-20 18:27:05 logId[2147483598] [http-nio-5678-exec-1] c.s.a.u.privilege.common.filter.PrivilegeFilter:82 - Execute time: 7
+INFO: 2018-05-20 18:27:05 logId[2147483598] [http-nio-5678-exec-1] com.sf.arch.udata.privilege.common.util.Encryptor:76 - information before decode: 072183143146148063150007070040082123109217122131124244133
+INFO: 2018-05-20 18:27:05 logId[2147483598] [http-nio-5678-exec-1] com.sf.arch.udata.privilege.common.util.Encryptor:86 - information after decode: 01372785,1522140472
+INFO: 2018-05-20 18:27:07 logId[2147483598] [http-nio-5678-exec-1] com.sf.arch.udata.privilege.common.util.Encryptor:76 - information before decode: 072183143146148063150007070040082123109217122131124244133
+INFO: 2018-05-20 18:27:07 logId[2147483598] [http-nio-5678-exec-1] com.sf.arch.udata.privilege.common.util.Encryptor:86 - information after decode: 01372785,1522140472
+INFO: 2018-05-20 18:27:07 logId[2147483598] [http-nio-5678-exec-1] c.s.a.u.privilege.controller.PrivilegeController:117 - Welcome 01372785 !

@@ -1,0 +1,93 @@
+
+DROP TABLE IF EXISTS `account`;
+CREATE TABLE `account` (
+	`id` INT(11) UNSIGNED NOT NULL AUTO_INCREMENT COMMENT 'id',
+	`uid` VARCHAR(11) NOT NULL COMMENT '用户工号',
+	`uname` VARCHAR(50) NOT NULL COMMENT '用户名',
+	`status` TINYINT(2) UNSIGNED NOT NULL COMMENT '用户状态0：离职，1：在岗',
+	`operator_uid` VARCHAR(11) NOT NULL COMMENT '操作员工号',
+	`manage_scope` VARCHAR(200) NOT NULL COMMENT '管辖范围',
+	`ctime` INT(11) UNSIGNED NOT NULL COMMENT '创建时间',
+	`utime` INT(11) UNSIGNED NOT NULL COMMENT '更新时间',
+	PRIMARY KEY (`id`),
+	UNIQUE KEY(`uid`)
+)ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='账户表';
+
+
+
+DROP TABLE IF EXISTS `role`;
+CREATE TABLE `role`(
+	`id` INT(11) UNSIGNED NOT NULL AUTO_INCREMENT COMMENT 'id',
+	`role_no` VARCHAR(11) NOT NULL COMMENT '角色编号',
+	`role_name` VARCHAR(50) NOT NULL COMMENT '管辖范围',
+	`description` VARCHAR(200) NOT NULL COMMENT '角色描述',
+	`status` TINYINT(2) UNSIGNED NOT NULL COMMENT '角色状态，0：关闭，1：打开',
+	`ctime` INT(11) UNSIGNED NOT NULL COMMENT '创建时间',
+	`utime` INT(11) UNSIGNED NOT NULL COMMENT '更新时间',
+	PRIMARY KEY (`id`),
+	UNIQUE KEY  (`role_no`)
+)ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='角色表';
+
+
+DROP TABLE IF EXISTS `privilege`;
+CREATE TABLE `privilege`(
+	`id` INT(11) UNSIGNED NOT NULL AUTO_INCREMENT COMMENT 'id',
+	`privilege_no` VARCHAR(11) NOT NULL COMMENT '权限编号',
+	`privilege_name` VARCHAR(50) NOT NULL COMMENT '权限名称',
+	`product_name` VARCHAR(50) NOT NULL COMMENT '产品名称',
+	`privilege_type` TINYINT(2) UNSIGNED NOT NULL COMMENT '权限类型，0功能权限，1指标权限',
+	`privilege_action` VARCHAR(200) NOT NULL COMMENT '权限操作',
+	`description` VARCHAR(200) NOT NULL COMMENT '权限描述',
+	`status` TINYINT(2) UNSIGNED NOT NULL COMMENT '权限状态，0：关闭，1：打开',
+	`ctime` INT(11) UNSIGNED NOT NULL COMMENT '创建时间',
+	`utime` INT(11) UNSIGNED NOT NULL COMMENT '更新时间',
+	PRIMARY KEY (`id`),
+	UNIQUE KEY  (`privilege_no`)
+)ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='权限表';
+
+
+DROP TABLE IF EXISTS `account_role`;
+CREATE TABLE `account_role`(
+	`id` INT(11) UNSIGNED NOT NULL AUTO_INCREMENT COMMENT 'id',
+	`account_id` INT(11) UNSIGNED NOT NULL COMMENT '账户id',
+	`role_id` INT(11) UNSIGNED NOT NULL COMMENT '角色id',
+	`description`  VARCHAR(200) NOT NULL COMMENT '描述',
+	`status` TINYINT(2) UNSIGNED NOT NULL COMMENT '状态，0：关闭，1：打开',
+	`ctime` INT(11) UNSIGNED NOT NULL COMMENT '创建时间',
+	`utime` INT(11) UNSIGNED NOT NULL COMMENT '更新时间',
+	PRIMARY KEY (`id`)
+)ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='账户角色关联表';
+
+
+DROP TABLE IF EXISTS `role_privilege`;
+CREATE TABLE `role_privilege`(
+	`id` INT(11) UNSIGNED NOT NULL AUTO_INCREMENT COMMENT 'id',
+	`role_id` INT(11) UNSIGNED NOT NULL COMMENT '角色id',
+	`privilege_id` INT(11) UNSIGNED NOT NULL COMMENT '权限id',
+	`description`  VARCHAR(200) NOT NULL COMMENT '描述',
+	`status` TINYINT(2) UNSIGNED NOT NULL COMMENT '状态，0：关闭，1：打开',
+	`ctime` INT(11) UNSIGNED NOT NULL COMMENT '创建时间',
+	`utime` INT(11) UNSIGNED NOT NULL COMMENT '更新时间',
+	PRIMARY KEY (`id`)
+)ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='角色权限关联表';
+
+
+
+DROP TABLE IF EXISTS `log`;
+CREATE TABLE `log`(
+	`id` INT(11) UNSIGNED NOT NULL AUTO_INCREMENT COMMENT 'id',
+	`uid` VARCHAR(11) NOT NULL COMMENT '工号',
+	`uname` VARCHAR(50) NOT NULL COMMENT '用户名',
+	`description` VARCHAR(200) NOT NULL COMMENT '描述',
+	`url` VARCHAR(200) NOT NULL COMMENT '请求url地址',
+	`method` VARCHAR(200) NOT NULL COMMENT '请求方法',
+	`params` VARCHAR(200) NOT NULL COMMENT '请求参数',
+	`type` TINYINT(2) UNSIGNED NOT NULL COMMENT '日志类型',
+	`ip` VARCHAR(50)  NOT NULL COMMENT 'IP地址',
+	`detail`  VARCHAR(200)  NOT NULL COMMENT '异常描述',
+	`ctime` INT(11) UNSIGNED NOT NULL COMMENT '请求时间',
+	PRIMARY KEY (`id`)
+)ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='日志表';
+
+
+

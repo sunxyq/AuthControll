@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <contextName>udata-privilege</contextName>
+    <include resource="com/sf/arch/commons/logging/base.xml"/>
+    <logger name="org.hibernate.SQL" level="WARN" />
+    <logger name="org.hibernate.type.descriptor.sql" level="WARN" />
+</configuration>
